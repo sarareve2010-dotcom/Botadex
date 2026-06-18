@@ -7,8 +7,8 @@ const PLANTS = [
     "habitat": "Prairies, pelouses, bords de chemins",
     "level": "Débutant",
     "tags": [
-      "commun",
-      "prairie"
+      "prairie",
+      "commun"
     ],
     "criteria": "Capitules jaunes, rosette basale, latex blanc, akènes à aigrette.",
     "confusions": "Porcelle, crépis, laiterons.",
@@ -17,7 +17,8 @@ const PLANTS = [
     "phytosociology": "Molinio-Arrhenatheretea",
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Prairies, pelouses, bords de chemins"
+    "indicator": "Milieu indicatif : Prairies, pelouses, bords de chemins",
+    "special": ""
   },
   {
     "id": 2,
@@ -27,8 +28,8 @@ const PLANTS = [
     "habitat": "Pelouses, prairies pâturées",
     "level": "Débutant",
     "tags": [
-      "commun",
-      "prairie"
+      "prairie",
+      "commun"
     ],
     "criteria": "Petits capitules blancs/rosés, rosette basale, fleurit presque toute l'année.",
     "confusions": "Petites marguerites.",
@@ -37,7 +38,8 @@ const PLANTS = [
     "phytosociology": "Molinio-Arrhenatheretea",
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Pelouses, prairies pâturées"
+    "indicator": "Milieu indicatif : Pelouses, prairies pâturées",
+    "special": ""
   },
   {
     "id": 3,
@@ -47,8 +49,9 @@ const PLANTS = [
     "habitat": "Pelouses, prairies, bords de chemins",
     "level": "Débutant",
     "tags": [
-      "commun",
-      "fabacée"
+      "prairie",
+      "fabacée",
+      "commun"
     ],
     "criteria": "Rampant, folioles souvent marquées de clair, fleurs blanches en tête.",
     "confusions": "Autres trèfles blancs/rosés.",
@@ -57,7 +60,8 @@ const PLANTS = [
     "phytosociology": "Molinio-Arrhenatheretea",
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Pelouses, prairies, bords de chemins"
+    "indicator": "Milieu indicatif : Pelouses, prairies, bords de chemins",
+    "special": ""
   },
   {
     "id": 4,
@@ -67,8 +71,9 @@ const PLANTS = [
     "habitat": "Prairies, talus, friches",
     "level": "Débutant",
     "tags": [
-      "commun",
-      "fabacée"
+      "prairie",
+      "fabacée",
+      "commun"
     ],
     "criteria": "Fleurs roses en tête dense, folioles ovales souvent avec tache claire.",
     "confusions": "Autres trèfles roses.",
@@ -77,7 +82,8 @@ const PLANTS = [
     "phytosociology": "Molinio-Arrhenatheretea",
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Prairies, talus, friches"
+    "indicator": "Milieu indicatif : Prairies, talus, friches",
+    "special": ""
   },
   {
     "id": 5,
@@ -87,6 +93,7 @@ const PLANTS = [
     "habitat": "Prairies, pelouses, chemins",
     "level": "Débutant",
     "tags": [
+      "prairie",
       "commun"
     ],
     "criteria": "Feuilles étroites à nervures parallèles, épi brun au bout d'une hampe.",
@@ -96,7 +103,8 @@ const PLANTS = [
     "phytosociology": "Molinio-Arrhenatheretea",
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Prairies, pelouses, chemins"
+    "indicator": "Milieu indicatif : Prairies, pelouses, chemins",
+    "special": ""
   },
   {
     "id": 6,
@@ -115,7 +123,8 @@ const PLANTS = [
     "phytosociology": "À préciser selon relevé phytosociologique",
     "eunis": "À préciser selon habitat observé",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Sols tassés, chemins, cours"
+    "indicator": "Milieu indicatif : Sols tassés, chemins, cours",
+    "special": ""
   },
   {
     "id": 7,
@@ -125,6 +134,8 @@ const PLANTS = [
     "habitat": "Sols riches, haies, friches, bords de fossés",
     "level": "Débutant",
     "tags": [
+      "haie",
+      "humide",
       "nitrophile"
     ],
     "criteria": "Plante piquante, feuilles opposées dentées, tige carrée à angles marqués.",
@@ -134,7 +145,8 @@ const PLANTS = [
     "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon contexte",
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Sols riches, haies, friches, bords de fossés"
+    "indicator": "Milieu indicatif : Sols riches, haies, friches, bords de fossés",
+    "special": ""
   },
   {
     "id": 8,
@@ -153,7 +165,8 @@ const PLANTS = [
     "phytosociology": "Stellarietea mediae",
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Cultures, friches, jardins"
+    "indicator": "Milieu indicatif : Cultures, friches, jardins",
+    "special": ""
   },
   {
     "id": 9,
@@ -163,6 +176,7 @@ const PLANTS = [
     "habitat": "Prairies fraîches, fossés, sols humides",
     "level": "Débutant",
     "tags": [
+      "prairie",
       "humide"
     ],
     "criteria": "Fleurs jaunes brillantes, stolons rampants, feuilles en 3 lobes marqués.",
@@ -172,7 +186,8 @@ const PLANTS = [
     "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon contexte",
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Prairies fraîches, fossés, sols humides"
+    "indicator": "Milieu indicatif : Prairies fraîches, fossés, sols humides",
+    "special": ""
   },
   {
     "id": 10,
@@ -182,6 +197,7 @@ const PLANTS = [
     "habitat": "Prairies sèches, talus, bords de routes",
     "level": "Débutant",
     "tags": [
+      "prairie",
       "prairie sèche"
     ],
     "criteria": "Feuilles très finement découpées, inflorescence blanche en corymbe.",
@@ -191,7 +207,8 @@ const PLANTS = [
     "phytosociology": "Molinio-Arrhenatheretea",
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Prairies sèches, talus, bords de routes"
+    "indicator": "Milieu indicatif : Prairies sèches, talus, bords de routes",
+    "special": ""
   },
   {
     "id": 11,
@@ -211,7 +228,8 @@ const PLANTS = [
     "phytosociology": "Crataego monogynae-Prunetea spinosae",
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Haies, friches, lisières"
+    "indicator": "Milieu indicatif : Haies, friches, lisières",
+    "special": ""
   },
   {
     "id": 12,
@@ -231,7 +249,8 @@ const PLANTS = [
     "phytosociology": "Crataego monogynae-Prunetea spinosae",
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Haies, lisières, friches"
+    "indicator": "Milieu indicatif : Haies, lisières, friches",
+    "special": ""
   },
   {
     "id": 13,
@@ -251,7 +270,8 @@ const PLANTS = [
     "phytosociology": "Crataego monogynae-Prunetea spinosae",
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Haies, bocage, lisières"
+    "indicator": "Milieu indicatif : Haies, bocage, lisières",
+    "special": ""
   },
   {
     "id": 14,
@@ -271,7 +291,8 @@ const PLANTS = [
     "phytosociology": "Crataego monogynae-Prunetea spinosae",
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Haies, fourrés, lisières"
+    "indicator": "Milieu indicatif : Haies, fourrés, lisières",
+    "special": ""
   },
   {
     "id": 15,
@@ -290,7 +311,8 @@ const PLANTS = [
     "phytosociology": "Querco-Fagetea",
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Lisières, talus, bois clairs"
+    "indicator": "Milieu indicatif : Lisières, talus, bois clairs",
+    "special": ""
   },
   {
     "id": 16,
@@ -310,7 +332,8 @@ const PLANTS = [
     "phytosociology": "Calluno-Ulicetea / Nardo-Callunetea selon contexte",
     "eunis": "F4 landes tempérées",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Landes, talus acides, friches"
+    "indicator": "Milieu indicatif : Landes, talus acides, friches",
+    "special": ""
   },
   {
     "id": 17,
@@ -320,9 +343,9 @@ const PLANTS = [
     "habitat": "Landes acides, talus, fourrés",
     "level": "Débutant",
     "tags": [
+      "fabacée",
       "acide",
-      "épineux",
-      "fabacée"
+      "épineux"
     ],
     "criteria": "Arbuste très épineux, feuilles transformées en épines, fleurs jaunes.",
     "confusions": "Genêt à balais, mais ajonc pique fort.",
@@ -331,7 +354,8 @@ const PLANTS = [
     "phytosociology": "Crataego monogynae-Prunetea spinosae",
     "eunis": "F3 fourrés tempérés",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Landes acides, talus, fourrés"
+    "indicator": "Milieu indicatif : Landes acides, talus, fourrés",
+    "special": ""
   },
   {
     "id": 18,
@@ -351,7 +375,8 @@ const PLANTS = [
     "phytosociology": "Molinio-Arrhenatheretea",
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Prairies, pelouses, talus"
+    "indicator": "Milieu indicatif : Prairies, pelouses, talus",
+    "special": ""
   },
   {
     "id": 19,
@@ -361,6 +386,7 @@ const PLANTS = [
     "habitat": "Friches, prairies, cultures",
     "level": "Intermédiaire",
     "tags": [
+      "prairie",
       "fabacée"
     ],
     "criteria": "Feuilles composées terminées par vrille, fleurs violettes/roses, gousses.",
@@ -370,7 +396,8 @@ const PLANTS = [
     "phytosociology": "Molinio-Arrhenatheretea",
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Friches, prairies, cultures"
+    "indicator": "Milieu indicatif : Friches, prairies, cultures",
+    "special": ""
   },
   {
     "id": 20,
@@ -380,6 +407,7 @@ const PLANTS = [
     "habitat": "Prairies semées, bords de champs",
     "level": "Débutant",
     "tags": [
+      "prairie",
       "fabacée"
     ],
     "criteria": "Fleurs violettes, feuilles trifoliées, port dressé.",
@@ -389,7 +417,8 @@ const PLANTS = [
     "phytosociology": "Molinio-Arrhenatheretea",
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Prairies semées, bords de champs"
+    "indicator": "Milieu indicatif : Prairies semées, bords de champs",
+    "special": ""
   },
   {
     "id": 21,
@@ -408,7 +437,8 @@ const PLANTS = [
     "phytosociology": "Molinio-Arrhenatheretea",
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Prairies, friches, bords de routes"
+    "indicator": "Milieu indicatif : Prairies, friches, bords de routes",
+    "special": ""
   },
   {
     "id": 22,
@@ -418,6 +448,7 @@ const PLANTS = [
     "habitat": "Cultures, friches, prairies riches",
     "level": "Intermédiaire",
     "tags": [
+      "prairie",
       "épineux"
     ],
     "criteria": "Feuilles épineuses, capitules lilas, plante souvent en colonies.",
@@ -427,7 +458,8 @@ const PLANTS = [
     "phytosociology": "Molinio-Arrhenatheretea",
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Cultures, friches, prairies riches"
+    "indicator": "Milieu indicatif : Cultures, friches, prairies riches",
+    "special": ""
   },
   {
     "id": 23,
@@ -446,7 +478,8 @@ const PLANTS = [
     "phytosociology": "Stellarietea mediae",
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Friches, jardins, cultures"
+    "indicator": "Milieu indicatif : Friches, jardins, cultures",
+    "special": ""
   },
   {
     "id": 24,
@@ -465,7 +498,8 @@ const PLANTS = [
     "phytosociology": "Molinio-Arrhenatheretea",
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Prairies, talus, bords de routes"
+    "indicator": "Milieu indicatif : Prairies, talus, bords de routes",
+    "special": ""
   },
   {
     "id": 25,
@@ -475,7 +509,8 @@ const PLANTS = [
     "habitat": "Pelouses, prairies maigres, sols acides",
     "level": "Intermédiaire",
     "tags": [
-      "prairie maigre"
+      "prairie maigre",
+      "prairie"
     ],
     "criteria": "Rosette de feuilles poilues, capitules jaunes sur hampes ramifiées.",
     "confusions": "Pissenlit, crépis.",
@@ -484,7 +519,8 @@ const PLANTS = [
     "phytosociology": "Molinio-Arrhenatheretea",
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Pelouses, prairies maigres, sols acides"
+    "indicator": "Milieu indicatif : Pelouses, prairies maigres, sols acides",
+    "special": ""
   },
   {
     "id": 26,
@@ -503,7 +539,8 @@ const PLANTS = [
     "phytosociology": "Stellarietea mediae",
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Cultures, jardins, chemins"
+    "indicator": "Milieu indicatif : Cultures, jardins, chemins",
+    "special": ""
   },
   {
     "id": 27,
@@ -513,6 +550,7 @@ const PLANTS = [
     "habitat": "Haies, lisières, sols frais riches",
     "level": "Débutant",
     "tags": [
+      "haie",
       "bois",
       "nitrophile"
     ],
@@ -523,7 +561,8 @@ const PLANTS = [
     "phytosociology": "Crataego monogynae-Prunetea spinosae",
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Haies, lisières, sols frais riches"
+    "indicator": "Milieu indicatif : Haies, lisières, sols frais riches",
+    "special": ""
   },
   {
     "id": 28,
@@ -542,7 +581,8 @@ const PLANTS = [
     "phytosociology": "Stellarietea mediae",
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Cultures, friches, bords de champs"
+    "indicator": "Milieu indicatif : Cultures, friches, bords de champs",
+    "special": ""
   },
   {
     "id": 29,
@@ -561,7 +601,8 @@ const PLANTS = [
     "phytosociology": "Stellarietea mediae",
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Cultures, friches, sols perturbés"
+    "indicator": "Milieu indicatif : Cultures, friches, sols perturbés",
+    "special": ""
   },
   {
     "id": 30,
@@ -571,6 +612,7 @@ const PLANTS = [
     "habitat": "Prairies humides, fossés",
     "level": "Débutant",
     "tags": [
+      "prairie",
       "humide"
     ],
     "criteria": "Fleurs lilas pâle à 4 pétales, feuilles composées, milieu humide.",
@@ -580,7 +622,8 @@ const PLANTS = [
     "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon contexte",
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Prairies humides, fossés"
+    "indicator": "Milieu indicatif : Prairies humides, fossés",
+    "special": ""
   },
   {
     "id": 31,
@@ -590,6 +633,7 @@ const PLANTS = [
     "habitat": "Bois, haies, bocage, sols frais",
     "level": "Débutant",
     "tags": [
+      "haie",
       "arbre"
     ],
     "criteria": "Glands sur long pédoncule, feuilles à court pétiole avec oreillettes basales.",
@@ -599,7 +643,8 @@ const PLANTS = [
     "phytosociology": "Crataego monogynae-Prunetea spinosae",
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Bois, haies, bocage, sols frais"
+    "indicator": "Milieu indicatif : Bois, haies, bocage, sols frais",
+    "special": ""
   },
   {
     "id": 32,
@@ -609,6 +654,8 @@ const PLANTS = [
     "habitat": "Haies, bois frais, bords de cours d'eau",
     "level": "Débutant",
     "tags": [
+      "haie",
+      "humide",
       "arbre",
       "frais"
     ],
@@ -619,7 +666,8 @@ const PLANTS = [
     "phytosociology": "Potametea / Lemnetea minoris selon contexte",
     "eunis": "C1/C2 milieux aquatiques",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Haies, bois frais, bords de cours d'eau"
+    "indicator": "Milieu indicatif : Haies, bois frais, bords de cours d'eau",
+    "special": ""
   },
   {
     "id": 33,
@@ -629,8 +677,8 @@ const PLANTS = [
     "habitat": "Haies, lisières, bois clairs",
     "level": "Débutant",
     "tags": [
-      "arbre",
-      "haie"
+      "haie",
+      "arbre"
     ],
     "criteria": "Feuilles opposées à lobes arrondis, samares opposées presque horizontales.",
     "confusions": "Autres érables.",
@@ -639,7 +687,8 @@ const PLANTS = [
     "phytosociology": "Crataego monogynae-Prunetea spinosae",
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Haies, lisières, bois clairs"
+    "indicator": "Milieu indicatif : Haies, lisières, bois clairs",
+    "special": ""
   },
   {
     "id": 34,
@@ -649,8 +698,8 @@ const PLANTS = [
     "habitat": "Bords de rivières, zones humides",
     "level": "Intermédiaire",
     "tags": [
-      "arbre",
-      "humide"
+      "humide",
+      "arbre"
     ],
     "criteria": "Feuilles étroites argentées dessous, arbre de ripisylve.",
     "confusions": "Autres saules.",
@@ -659,7 +708,8 @@ const PLANTS = [
     "phytosociology": "Molinio-Arrhenatheretea / Filipendulo-Convolvuletea selon contexte",
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Bords de rivières, zones humides"
+    "indicator": "Milieu indicatif : Bords de rivières, zones humides",
+    "special": ""
   },
   {
     "id": 35,
@@ -669,8 +719,8 @@ const PLANTS = [
     "habitat": "Vallées alluviales, bords de rivières",
     "level": "Intermédiaire",
     "tags": [
-      "arbre",
-      "humide"
+      "humide",
+      "arbre"
     ],
     "criteria": "Feuilles triangulaires, long pétiole, port souvent élancé.",
     "confusions": "Peupliers hybrides.",
@@ -679,7 +729,8 @@ const PLANTS = [
     "phytosociology": "À préciser selon relevé phytosociologique",
     "eunis": "À préciser selon habitat observé",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Vallées alluviales, bords de rivières"
+    "indicator": "Milieu indicatif : Vallées alluviales, bords de rivières",
+    "special": ""
   },
   {
     "id": 36,
@@ -689,8 +740,8 @@ const PLANTS = [
     "habitat": "Bois clairs, landes, sols acides",
     "level": "Débutant",
     "tags": [
-      "arbre",
-      "acide"
+      "acide",
+      "arbre"
     ],
     "criteria": "Écorce blanche, rameaux pendants, feuilles triangulaires dentées.",
     "confusions": "Bouleau pubescent.",
@@ -699,7 +750,8 @@ const PLANTS = [
     "phytosociology": "Querco-Fagetea",
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Bois clairs, landes, sols acides"
+    "indicator": "Milieu indicatif : Bois clairs, landes, sols acides",
+    "special": ""
   },
   {
     "id": 37,
@@ -709,8 +761,8 @@ const PLANTS = [
     "habitat": "Bois sur sols acides, bocage",
     "level": "Débutant",
     "tags": [
-      "arbre",
-      "acide"
+      "acide",
+      "arbre"
     ],
     "criteria": "Grandes feuilles dentées, bogues épineuses, chatons mâles odorants.",
     "confusions": "Jeunes chênes parfois.",
@@ -719,7 +771,8 @@ const PLANTS = [
     "phytosociology": "Querco-Fagetea",
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Bois sur sols acides, bocage"
+    "indicator": "Milieu indicatif : Bois sur sols acides, bocage",
+    "special": ""
   },
   {
     "id": 38,
@@ -729,8 +782,8 @@ const PLANTS = [
     "habitat": "Haies, lisières, bois frais",
     "level": "Débutant",
     "tags": [
-      "arbuste",
-      "haie"
+      "haie",
+      "arbuste"
     ],
     "criteria": "Feuilles rondes cordées, chatons mâles pendants, noisettes.",
     "confusions": "Tilleul jeune, orme jeune.",
@@ -739,7 +792,8 @@ const PLANTS = [
     "phytosociology": "Crataego monogynae-Prunetea spinosae",
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Haies, lisières, bois frais"
+    "indicator": "Milieu indicatif : Haies, lisières, bois frais",
+    "special": ""
   },
   {
     "id": 39,
@@ -759,7 +813,8 @@ const PLANTS = [
     "phytosociology": "Phragmito australis-Magnocaricetea elatae",
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Roselières, fossés, marais"
+    "indicator": "Milieu indicatif : Roselières, fossés, marais",
+    "special": ""
   },
   {
     "id": 40,
@@ -778,7 +833,8 @@ const PLANTS = [
     "phytosociology": "Potametea / Lemnetea minoris selon contexte",
     "eunis": "C1 eaux stagnantes",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Mares, fossés, roselières"
+    "indicator": "Milieu indicatif : Mares, fossés, roselières",
+    "special": ""
   },
   {
     "id": 41,
@@ -797,7 +853,8 @@ const PLANTS = [
     "phytosociology": "Phragmito australis-Magnocaricetea elatae",
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Bords d'eau, fossés, marais"
+    "indicator": "Milieu indicatif : Bords d'eau, fossés, marais",
+    "special": ""
   },
   {
     "id": 42,
@@ -816,7 +873,8 @@ const PLANTS = [
     "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon contexte",
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Berges, fossés, mégaphorbiaies"
+    "indicator": "Milieu indicatif : Berges, fossés, mégaphorbiaies",
+    "special": ""
   },
   {
     "id": 43,
@@ -826,6 +884,7 @@ const PLANTS = [
     "habitat": "Prairies humides, mégaphorbiaies, fossés",
     "level": "Débutant",
     "tags": [
+      "prairie",
       "humide"
     ],
     "criteria": "Inflorescences blanc crème odorantes, feuilles composées, odeur d'amande/médicament.",
@@ -835,7 +894,8 @@ const PLANTS = [
     "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon contexte",
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Prairies humides, mégaphorbiaies, fossés"
+    "indicator": "Milieu indicatif : Prairies humides, mégaphorbiaies, fossés",
+    "special": ""
   },
   {
     "id": 44,
@@ -845,6 +905,7 @@ const PLANTS = [
     "habitat": "Fossés, berges, prairies humides",
     "level": "Intermédiaire",
     "tags": [
+      "prairie",
       "humide",
       "lamiacée"
     ],
@@ -855,7 +916,8 @@ const PLANTS = [
     "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon contexte",
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Fossés, berges, prairies humides"
+    "indicator": "Milieu indicatif : Fossés, berges, prairies humides",
+    "special": ""
   },
   {
     "id": 45,
@@ -865,8 +927,9 @@ const PLANTS = [
     "habitat": "Prairies humides, fossés, sols tassés humides",
     "level": "Intermédiaire",
     "tags": [
-      "jonc",
-      "humide"
+      "prairie",
+      "humide",
+      "jonc"
     ],
     "criteria": "Touffes denses, tiges cylindriques lisses, inflorescence latérale apparente.",
     "confusions": "Autres joncs.",
@@ -875,7 +938,8 @@ const PLANTS = [
     "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon contexte",
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Prairies humides, fossés, sols tassés humides"
+    "indicator": "Milieu indicatif : Prairies humides, fossés, sols tassés humides",
+    "special": ""
   },
   {
     "id": 46,
@@ -885,6 +949,7 @@ const PLANTS = [
     "habitat": "Prairies, bords de chemins, friches",
     "level": "Intermédiaire",
     "tags": [
+      "prairie",
       "graminée"
     ],
     "criteria": "Inflorescence en paquets denses, feuilles larges, gaine aplatie.",
@@ -894,7 +959,8 @@ const PLANTS = [
     "phytosociology": "Molinio-Arrhenatheretea",
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Prairies, bords de chemins, friches"
+    "indicator": "Milieu indicatif : Prairies, bords de chemins, friches",
+    "special": ""
   },
   {
     "id": 47,
@@ -904,6 +970,7 @@ const PLANTS = [
     "habitat": "Prairies, pelouses, chemins",
     "level": "Intermédiaire",
     "tags": [
+      "prairie",
       "graminée"
     ],
     "criteria": "Épis alternes appliqués contre l'axe, feuilles brillantes dessous.",
@@ -913,7 +980,8 @@ const PLANTS = [
     "phytosociology": "Molinio-Arrhenatheretea",
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Prairies, pelouses, chemins"
+    "indicator": "Milieu indicatif : Prairies, pelouses, chemins",
+    "special": ""
   },
   {
     "id": 48,
@@ -923,8 +991,9 @@ const PLANTS = [
     "habitat": "Prairies maigres, pelouses, landes",
     "level": "Intermédiaire",
     "tags": [
-      "graminée",
-      "prairie maigre"
+      "prairie maigre",
+      "prairie",
+      "graminée"
     ],
     "criteria": "Petite graminée précoce, odeur de foin/coumarine en séchant.",
     "confusions": "Autres petites poacées.",
@@ -933,7 +1002,8 @@ const PLANTS = [
     "phytosociology": "Molinio-Arrhenatheretea",
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Prairies maigres, pelouses, landes"
+    "indicator": "Milieu indicatif : Prairies maigres, pelouses, landes",
+    "special": ""
   },
   {
     "id": 49,
@@ -943,7 +1013,9 @@ const PLANTS = [
     "habitat": "Prairies, fossés, sols frais",
     "level": "Intermédiaire",
     "tags": [
-      "graminée"
+      "prairie",
+      "graminée",
+      "humide"
     ],
     "criteria": "Grande graminée robuste, feuilles larges rugueuses, ligule courte.",
     "confusions": "Dactyle, autres fétuques.",
@@ -952,7 +1024,8 @@ const PLANTS = [
     "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon contexte",
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Prairies, fossés, sols frais"
+    "indicator": "Milieu indicatif : Prairies, fossés, sols frais",
+    "special": ""
   },
   {
     "id": 50,
@@ -972,7 +1045,8 @@ const PLANTS = [
     "phytosociology": "Stellarietea mediae",
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
-    "indicator": "Milieu indicatif : Chemins, trottoirs, cultures, pelouses"
+    "indicator": "Milieu indicatif : Chemins, trottoirs, cultures, pelouses",
+    "special": ""
   },
   {
     "id": 51,
@@ -982,8 +1056,8 @@ const PLANTS = [
     "habitat": "Prairies humides, fossés",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Capitules floraux ; vérifier ligules/tubules, involucre, feuilles et akènes.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -993,7 +1067,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, fossés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 52,
@@ -1013,7 +1088,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Lisières, talus, prairies sèches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 53,
@@ -1034,7 +1110,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies maigres, landes",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 54,
@@ -1044,8 +1121,8 @@ const PLANTS = [
     "habitat": "Prairies humides, fossés",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Tiges à nœuds, feuilles à gaine et ligule ; observer épillet, glumes et arêtes.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -1055,7 +1132,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, fossés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 55,
@@ -1065,9 +1143,9 @@ const PLANTS = [
     "habitat": "Bois frais, prairies humides",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Tige souvent carrée, feuilles opposées, fleurs bilabiées, odeur parfois aromatique.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -1077,7 +1155,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois frais, prairies humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 56,
@@ -1097,7 +1176,8 @@ const PLANTS = [
     "eunis": "C1 eaux stagnantes",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Mares, fossés, eaux peu profondes",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 57,
@@ -1118,7 +1198,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, talus, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 58,
@@ -1128,8 +1209,8 @@ const PLANTS = [
     "habitat": "Ripisylves, bois humides",
     "level": "À classer",
     "tags": [
-      "humide",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -1139,7 +1220,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Ripisylves, bois humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 59,
@@ -1153,13 +1235,14 @@ const PLANTS = [
     ],
     "criteria": "Fleurs zygomorphes avec labelle ; feuilles souvent entières, tubercules/rhizomes.",
     "confusions": "À préciser avec la flore de terrain.",
-    "status": "À vérifier selon listes régionales",
+    "status": "À vérifier : groupe pouvant contenir des espèces protégées/patrimoniales",
     "short": "Fleurs zygomorphes avec labelle .",
     "phytosociology": "Molinio-Arrhenatheretea",
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies maigres",
-    "photo": ""
+    "photo": "",
+    "special": "protected"
   },
   {
     "id": 60,
@@ -1179,7 +1262,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, jardins, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 61,
@@ -1199,7 +1283,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 62,
@@ -1219,7 +1304,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Mégaphorbiaies, fossés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 63,
@@ -1240,7 +1326,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, talus, prairies fraîches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 64,
@@ -1260,7 +1347,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, pelouses ouvertes",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 65,
@@ -1280,7 +1368,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois clairs, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 66,
@@ -1300,7 +1389,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches riches, bords de chemins",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 67,
@@ -1321,7 +1411,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, haies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 68,
@@ -1341,7 +1432,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies mésophiles, talus",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 69,
@@ -1361,7 +1453,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, bords de routes",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 70,
@@ -1382,7 +1475,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 71,
@@ -1402,7 +1496,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 72,
@@ -1422,7 +1517,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Murs, ravins, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 73,
@@ -1442,7 +1538,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 74,
@@ -1462,7 +1559,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, friches nitrophiles",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 75,
@@ -1482,7 +1580,8 @@ const PLANTS = [
     "eunis": "C1/C2 milieux aquatiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Ruisseaux, fossés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 76,
@@ -1502,7 +1601,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies maigres, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 77,
@@ -1522,7 +1622,8 @@ const PLANTS = [
     "eunis": "E1 pelouses sèches",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, lisières sèches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 78,
@@ -1542,7 +1643,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 79,
@@ -1562,7 +1664,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies maigres",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 80,
@@ -1582,7 +1685,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, talus",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 81,
@@ -1602,7 +1706,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, bords de routes",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 82,
@@ -1622,7 +1727,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 83,
@@ -1636,13 +1742,14 @@ const PLANTS = [
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
     "confusions": "À préciser avec la flore de terrain.",
-    "status": "À vérifier selon listes régionales",
+    "status": "Espèce exotique/invasive ou à surveiller selon contexte régional",
     "short": "Observer le port, les feuilles, la fleur, le fruit et le milieu .",
     "phytosociology": "Artemisietea vulgaris / Stellarietea mediae selon contexte",
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, murs, remblais",
-    "photo": ""
+    "photo": "",
+    "special": "invasive"
   },
   {
     "id": 84,
@@ -1662,7 +1769,8 @@ const PLANTS = [
     "eunis": "C1 eaux stagnantes",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Mares, fossés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 85,
@@ -1672,8 +1780,8 @@ const PLANTS = [
     "habitat": "Prairies humides, suintements",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Fleurs souvent à nombreuses pièces libres ; feuilles très variables.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -1683,7 +1791,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, suintements",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 86,
@@ -1693,8 +1802,8 @@ const PLANTS = [
     "habitat": "Haies, fossés, mégaphorbiaies",
     "level": "À classer",
     "tags": [
-      "humide",
-      "haie"
+      "haie",
+      "humide"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -1704,7 +1813,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, fossés, mégaphorbiaies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 87,
@@ -1724,7 +1834,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, talus",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 88,
@@ -1744,7 +1855,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois frais, sources",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 89,
@@ -1764,7 +1876,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses sèches, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 90,
@@ -1784,7 +1897,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bords d'eau, marais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 91,
@@ -1804,7 +1918,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Marais, fossés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 92,
@@ -1824,7 +1939,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, prairies maigres",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 93,
@@ -1845,7 +1961,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois, haies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 94,
@@ -1865,7 +1982,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses calcicoles",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 95,
@@ -1875,8 +1993,8 @@ const PLANTS = [
     "habitat": "Prairies humides, chemins",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Tige souvent trigone, feuilles engainantes ; épillets de laîches/scirpes à examiner.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -1886,7 +2004,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, chemins",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 96,
@@ -1896,8 +2015,8 @@ const PLANTS = [
     "habitat": "Prairies humides maigres",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Tige souvent trigone, feuilles engainantes ; épillets de laîches/scirpes à examiner.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -1907,7 +2026,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides maigres",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 97,
@@ -1927,7 +2047,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Marais, fossés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 98,
@@ -1937,8 +2058,8 @@ const PLANTS = [
     "habitat": "Bois humides, sources",
     "level": "À classer",
     "tags": [
-      "humide",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Tige souvent trigone, feuilles engainantes ; épillets de laîches/scirpes à examiner.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -1948,7 +2069,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois humides, sources",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 99,
@@ -1958,8 +2080,8 @@ const PLANTS = [
     "habitat": "Sources, bois humides",
     "level": "À classer",
     "tags": [
-      "humide",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Tige souvent trigone, feuilles engainantes ; épillets de laîches/scirpes à examiner.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -1969,7 +2091,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Sources, bois humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 100,
@@ -1989,7 +2112,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bords d'eau, marais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 101,
@@ -2009,7 +2133,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 102,
@@ -2030,7 +2155,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois, haies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 103,
@@ -2050,7 +2176,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 104,
@@ -2070,7 +2197,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, talus",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 105,
@@ -2090,7 +2218,8 @@ const PLANTS = [
     "eunis": "E1 pelouses sèches",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, chemins",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 106,
@@ -2110,7 +2239,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, prairies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 107,
@@ -2131,7 +2261,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Murs, haies, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 108,
@@ -2151,7 +2282,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 109,
@@ -2171,7 +2303,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 110,
@@ -2181,8 +2314,8 @@ const PLANTS = [
     "habitat": "Prairies humides maigres",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Capitules floraux ; vérifier ligules/tubules, involucre, feuilles et akènes.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -2192,7 +2325,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides maigres",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 111,
@@ -2202,8 +2336,8 @@ const PLANTS = [
     "habitat": "Prairies humides, marais",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Capitules floraux ; vérifier ligules/tubules, involucre, feuilles et akènes.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -2213,7 +2347,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, marais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 112,
@@ -2233,7 +2368,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, pâtures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 113,
@@ -2253,7 +2389,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 114,
@@ -2273,7 +2410,8 @@ const PLANTS = [
     "eunis": "À préciser selon habitat observé",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Lisières sèches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 115,
@@ -2287,13 +2425,14 @@ const PLANTS = [
     ],
     "criteria": "Capitules floraux ; vérifier ligules/tubules, involucre, feuilles et akènes.",
     "confusions": "À préciser avec la flore de terrain.",
-    "status": "À vérifier selon listes régionales",
+    "status": "Espèce exotique/invasive ou à surveiller selon contexte régional",
     "short": "Capitules floraux .",
     "phytosociology": "Artemisietea vulgaris / Stellarietea mediae selon contexte",
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, trottoirs",
-    "photo": ""
+    "photo": "",
+    "special": "invasive"
   },
   {
     "id": 116,
@@ -2313,7 +2452,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 117,
@@ -2333,7 +2473,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 118,
@@ -2354,7 +2495,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, bois",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 119,
@@ -2374,7 +2516,8 @@ const PLANTS = [
     "eunis": "E1 pelouses sèches",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, chemins",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 120,
@@ -2394,7 +2537,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies pâturées",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 121,
@@ -2404,19 +2548,20 @@ const PLANTS = [
     "habitat": "Prairies humides, landes",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
+      "humide",
       "lande"
     ],
     "criteria": "Fleurs zygomorphes avec labelle ; feuilles souvent entières, tubercules/rhizomes.",
     "confusions": "À préciser avec la flore de terrain.",
-    "status": "À vérifier selon listes régionales",
+    "status": "À vérifier : groupe pouvant contenir des espèces protégées/patrimoniales",
     "short": "Fleurs zygomorphes avec labelle .",
     "phytosociology": "Molinio-Arrhenatheretea / Filipendulo-Convolvuletea selon contexte",
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, landes",
-    "photo": ""
+    "photo": "",
+    "special": "protected"
   },
   {
     "id": 122,
@@ -2437,7 +2582,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies sèches, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 123,
@@ -2447,9 +2593,9 @@ const PLANTS = [
     "habitat": "Prairies humides, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Tiges à nœuds, feuilles à gaine et ligule ; observer épillet, glumes et arêtes.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -2459,7 +2605,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 124,
@@ -2479,7 +2626,8 @@ const PLANTS = [
     "eunis": "F4 landes tempérées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Coupes, landes, sols acides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 125,
@@ -2500,7 +2648,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, fossés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 126,
@@ -2520,7 +2669,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 127,
@@ -2540,7 +2690,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches sèches, talus",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 128,
@@ -2560,7 +2711,8 @@ const PLANTS = [
     "eunis": "C1 eaux stagnantes",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Mares, fossés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 129,
@@ -2580,7 +2732,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Fossés, berges",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 130,
@@ -2600,7 +2753,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Fossés, zones humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 131,
@@ -2621,7 +2775,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, fossés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 132,
@@ -2631,8 +2786,8 @@ const PLANTS = [
     "habitat": "Prairies humides",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -2642,7 +2797,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 133,
@@ -2652,8 +2808,8 @@ const PLANTS = [
     "habitat": "Landes humides atlantiques",
     "level": "À classer",
     "tags": [
-      "humide",
-      "lande"
+      "lande",
+      "humide"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -2663,7 +2819,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Landes humides atlantiques",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 134,
@@ -2673,8 +2830,8 @@ const PLANTS = [
     "habitat": "Landes humides, tourbières",
     "level": "À classer",
     "tags": [
-      "humide",
-      "lande"
+      "lande",
+      "humide"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -2684,7 +2841,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Landes humides, tourbières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 135,
@@ -2704,7 +2862,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses sèches, cultures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 136,
@@ -2724,7 +2883,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 137,
@@ -2744,7 +2904,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Fossés, mégaphorbiaies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 138,
@@ -2764,7 +2925,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, jardins",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 139,
@@ -2784,7 +2946,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Jardins, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 140,
@@ -2804,7 +2967,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 141,
@@ -2824,7 +2988,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 142,
@@ -2844,7 +3009,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses sèches, prairies maigres",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 143,
@@ -2865,7 +3031,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois frais, haies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 144,
@@ -2875,9 +3042,9 @@ const PLANTS = [
     "habitat": "Landes, bois humides acides",
     "level": "À classer",
     "tags": [
-      "humide",
+      "lande",
       "bois",
-      "lande"
+      "humide"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -2887,7 +3054,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Landes, bois humides acides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 145,
@@ -2907,7 +3075,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, jardins",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 146,
@@ -2928,7 +3097,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, bois clairs",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 147,
@@ -2949,7 +3119,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, friches riches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 148,
@@ -2969,7 +3140,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 149,
@@ -2989,7 +3161,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Marais, fossés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 150,
@@ -3009,7 +3182,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies sèches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 151,
@@ -3030,7 +3204,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, prairies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 152,
@@ -3050,7 +3225,8 @@ const PLANTS = [
     "eunis": "E1 pelouses sèches",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, jardins",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 153,
@@ -3071,7 +3247,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois, murs, haies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 154,
@@ -3092,7 +3269,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 155,
@@ -3112,7 +3290,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, pelouses fraîches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 156,
@@ -3132,7 +3311,8 @@ const PLANTS = [
     "eunis": "C1/C2 milieux aquatiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Fossés, eaux peu profondes",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 157,
@@ -3153,7 +3333,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois, haies, murs",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 158,
@@ -3173,7 +3354,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, talus",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 159,
@@ -3194,7 +3376,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies fraîches, haies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 160,
@@ -3214,7 +3397,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies fraîches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 161,
@@ -3224,8 +3408,8 @@ const PLANTS = [
     "habitat": "Haies humides, ripisylves",
     "level": "À classer",
     "tags": [
-      "humide",
-      "haie"
+      "haie",
+      "humide"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -3235,7 +3419,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies humides, ripisylves",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 162,
@@ -3255,7 +3440,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois atlantiques",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 163,
@@ -3275,7 +3461,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies sèches, talus",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 164,
@@ -3296,7 +3483,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois, haies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 165,
@@ -3310,13 +3498,14 @@ const PLANTS = [
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
     "confusions": "À préciser avec la flore de terrain.",
-    "status": "À vérifier selon listes régionales",
+    "status": "Espèce exotique/invasive ou à surveiller selon contexte régional",
     "short": "Observer le port, les feuilles, la fleur, le fruit et le milieu .",
     "phytosociology": "Molinio-Arrhenatheretea / Filipendulo-Convolvuletea selon contexte",
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Berges, milieux humides",
-    "photo": ""
+    "photo": "",
+    "special": "invasive"
   },
   {
     "id": 166,
@@ -3337,7 +3526,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois, haies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 167,
@@ -3357,7 +3547,8 @@ const PLANTS = [
     "eunis": "F4 landes tempérées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses sableuses, landes",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 168,
@@ -3367,8 +3558,8 @@ const PLANTS = [
     "habitat": "Prairies humides acides",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Tiges ou feuilles cylindriques ; fleurs discrètes à tépales brunâtres.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -3378,7 +3569,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides acides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 169,
@@ -3388,8 +3580,8 @@ const PLANTS = [
     "habitat": "Fossés, prairies humides",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Tiges ou feuilles cylindriques ; fleurs discrètes à tépales brunâtres.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -3399,7 +3591,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Fossés, prairies humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 170,
@@ -3419,7 +3612,8 @@ const PLANTS = [
     "eunis": "À préciser selon habitat observé",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Ornières, vases exondées",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 171,
@@ -3429,8 +3623,8 @@ const PLANTS = [
     "habitat": "Prairies humides",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Tiges ou feuilles cylindriques ; fleurs discrètes à tépales brunâtres.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -3440,7 +3634,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 172,
@@ -3450,8 +3645,8 @@ const PLANTS = [
     "habitat": "Prairies humides, fossés",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Tiges ou feuilles cylindriques ; fleurs discrètes à tépales brunâtres.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -3461,7 +3656,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, fossés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 173,
@@ -3481,7 +3677,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, talus",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 174,
@@ -3501,7 +3698,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, bords de routes",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 175,
@@ -3522,7 +3720,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, friches riches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 176,
@@ -3542,7 +3741,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, jardins",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 177,
@@ -3562,7 +3762,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, jardins",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 178,
@@ -3584,7 +3785,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois, haies, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 179,
@@ -3604,7 +3806,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies fraîches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 180,
@@ -3624,7 +3827,8 @@ const PLANTS = [
     "eunis": "C1 eaux stagnantes",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Mares, eaux calmes",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 181,
@@ -3644,7 +3848,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 182,
@@ -3664,7 +3869,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Chemins, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 183,
@@ -3684,7 +3890,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 184,
@@ -3704,7 +3911,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Talus, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 185,
@@ -3725,7 +3933,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois, prairies fraîches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 186,
@@ -3745,7 +3954,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 187,
@@ -3766,7 +3976,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois, haies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 188,
@@ -3776,8 +3987,8 @@ const PLANTS = [
     "habitat": "Prairies humides",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Fleur papilionacée fréquente, feuilles souvent composées, fruits en gousses.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -3787,7 +3998,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 189,
@@ -3807,7 +4019,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, prairies maigres",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 190,
@@ -3827,7 +4040,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois acides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 191,
@@ -3837,8 +4051,8 @@ const PLANTS = [
     "habitat": "Prairies humides",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Feuilles opposées, nœuds marqués, fleurs souvent à 5 pétales.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -3848,7 +4062,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 192,
@@ -3868,7 +4083,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Fossés, berges",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 193,
@@ -3878,8 +4094,8 @@ const PLANTS = [
     "habitat": "Prairies humides, fossés",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -3889,7 +4105,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, fossés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 194,
@@ -3909,7 +4126,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Mégaphorbiaies, marais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 195,
@@ -3929,7 +4147,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, talus",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 196,
@@ -3949,7 +4168,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, bords de routes",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 197,
@@ -3969,7 +4189,8 @@ const PLANTS = [
     "eunis": "À préciser selon habitat observé",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Chemins, sols tassés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 198,
@@ -3989,7 +4210,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, prairies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 199,
@@ -4009,7 +4231,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois clairs acides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 200,
@@ -4029,7 +4252,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, talus",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 201,
@@ -4039,8 +4263,8 @@ const PLANTS = [
     "habitat": "Prairies humides",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Tige souvent carrée, feuilles opposées, fleurs bilabiées, odeur parfois aromatique.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -4050,7 +4274,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 202,
@@ -4070,7 +4295,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Jardins, cultures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 203,
@@ -4080,8 +4306,8 @@ const PLANTS = [
     "habitat": "Landes humides, prairies oligotrophes",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
+      "humide",
       "lande"
     ],
     "criteria": "Tiges à nœuds, feuilles à gaine et ligule ; observer épillet, glumes et arêtes.",
@@ -4092,7 +4318,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Landes humides, prairies oligotrophes",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 204,
@@ -4112,7 +4339,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 205,
@@ -4132,7 +4360,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Fossés, marais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 206,
@@ -4142,6 +4371,7 @@ const PLANTS = [
     "habitat": "Sources, ruisseaux",
     "level": "À classer",
     "tags": [
+      "humide",
       "terrain"
     ],
     "criteria": "4 pétales en croix, 6 étamines souvent, fruits en siliques ou silicules.",
@@ -4152,7 +4382,8 @@ const PLANTS = [
     "eunis": "C1/C2 milieux aquatiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Sources, ruisseaux",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 207,
@@ -4172,7 +4403,8 @@ const PLANTS = [
     "eunis": "C1/C2 milieux aquatiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Fossés, ruisseaux",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 208,
@@ -4192,7 +4424,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, sables",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 209,
@@ -4212,7 +4445,8 @@ const PLANTS = [
     "eunis": "E1 pelouses sèches",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Lisières sèches, pelouses",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 210,
@@ -4232,7 +4466,8 @@ const PLANTS = [
     "eunis": "E1 pelouses sèches",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses acides, sables",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 211,
@@ -4252,7 +4487,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois frais acides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 212,
@@ -4272,7 +4508,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 213,
@@ -4292,7 +4529,8 @@ const PLANTS = [
     "eunis": "À préciser selon habitat observé",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Murs, vieux bâtiments",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 214,
@@ -4312,7 +4550,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, talus",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 215,
@@ -4332,7 +4571,8 @@ const PLANTS = [
     "eunis": "C1 eaux stagnantes",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Mares, fossés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 216,
@@ -4352,7 +4592,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Vases, fossés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 217,
@@ -4373,7 +4614,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, berges",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 218,
@@ -4393,7 +4635,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Fossés, berges",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 219,
@@ -4413,7 +4656,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, talus",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 220,
@@ -4433,7 +4677,8 @@ const PLANTS = [
     "eunis": "E1 pelouses sèches",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses sèches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 221,
@@ -4453,7 +4698,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, prairies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 222,
@@ -4474,7 +4720,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies fraîches, haies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 223,
@@ -4494,7 +4741,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 224,
@@ -4514,7 +4762,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Murs, talus, bois",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 225,
@@ -4534,7 +4783,8 @@ const PLANTS = [
     "eunis": "C1 eaux stagnantes",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Mares, étangs",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 226,
@@ -4544,8 +4794,8 @@ const PLANTS = [
     "habitat": "Chemins humides, prairies piétinées",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; observer feuilles, stipules, fruits.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -4555,7 +4805,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Chemins humides, prairies piétinées",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 227,
@@ -4576,7 +4827,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Landes, prairies acides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 228,
@@ -4596,7 +4848,8 @@ const PLANTS = [
     "eunis": "E1 pelouses sèches",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, chemins",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 229,
@@ -4616,7 +4869,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, talus",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 230,
@@ -4637,7 +4891,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois, haies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 231,
@@ -4658,7 +4913,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois, haies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 232,
@@ -4673,13 +4929,14 @@ const PLANTS = [
     ],
     "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; observer feuilles, stipules, fruits.",
     "confusions": "À préciser avec la flore de terrain.",
-    "status": "À vérifier selon listes régionales",
+    "status": "Espèce exotique/invasive ou à surveiller selon contexte régional",
     "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
     "phytosociology": "Crataego monogynae-Prunetea spinosae",
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, bois rudéraux",
-    "photo": ""
+    "photo": "",
+    "special": "invasive"
   },
   {
     "id": 233,
@@ -4689,8 +4946,8 @@ const PLANTS = [
     "habitat": "Prairies humides, fossés",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Capitules floraux ; vérifier ligules/tubules, involucre, feuilles et akènes.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -4700,7 +4957,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, fossés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 234,
@@ -4720,7 +4978,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois acides à neutres",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 235,
@@ -4740,7 +4999,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies mésophiles",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 236,
@@ -4760,7 +5020,8 @@ const PLANTS = [
     "eunis": "E1 pelouses sèches",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses sèches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 237,
@@ -4770,8 +5031,8 @@ const PLANTS = [
     "habitat": "Prairies humides, marais",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Fleurs souvent à nombreuses pièces libres ; feuilles très variables.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -4781,7 +5042,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, marais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 238,
@@ -4796,13 +5058,14 @@ const PLANTS = [
     ],
     "criteria": "Ochréa fréquente aux nœuds, feuilles simples, fleurs discrètes.",
     "confusions": "À préciser avec la flore de terrain.",
-    "status": "À vérifier selon listes régionales",
+    "status": "Espèce exotique/invasive ou à surveiller selon contexte régional",
     "short": "Ochréa fréquente aux nœuds, feuilles simples, fleurs discrètes.",
     "phytosociology": "Molinio-Arrhenatheretea / Filipendulo-Convolvuletea selon contexte",
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Berges, friches humides",
-    "photo": ""
+    "photo": "",
+    "special": "invasive"
   },
   {
     "id": 239,
@@ -4822,7 +5085,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies maigres",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 240,
@@ -4836,13 +5100,14 @@ const PLANTS = [
     ],
     "criteria": "Fleur papilionacée fréquente, feuilles souvent composées, fruits en gousses.",
     "confusions": "À préciser avec la flore de terrain.",
-    "status": "À vérifier selon listes régionales",
+    "status": "Espèce exotique/invasive ou à surveiller selon contexte régional",
     "short": "Fleur papilionacée fréquente, feuilles souvent composées, fruits en gousses.",
     "phytosociology": "Querco-Fagetea",
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois rudéraux, talus",
-    "photo": ""
+    "photo": "",
+    "special": "invasive"
   },
   {
     "id": 241,
@@ -4862,7 +5127,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Berges, sols humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 242,
@@ -4882,7 +5148,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 243,
@@ -4902,7 +5169,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Fossés, lieux humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 244,
@@ -4923,7 +5191,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 245,
@@ -4944,7 +5213,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies riches, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 246,
@@ -4964,7 +5234,8 @@ const PLANTS = [
     "eunis": "À préciser selon habitat observé",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Chemins, pavés, sols tassés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 247,
@@ -4974,8 +5245,8 @@ const PLANTS = [
     "habitat": "Landes humides, fossés",
     "level": "À classer",
     "tags": [
-      "humide",
-      "lande"
+      "lande",
+      "humide"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -4985,7 +5256,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Landes humides, fossés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 248,
@@ -5006,7 +5278,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois clairs, haies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 249,
@@ -5026,7 +5299,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Marais, fossés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 250,
@@ -5046,7 +5320,8 @@ const PLANTS = [
     "eunis": "À préciser selon habitat observé",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Berges",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 251,
@@ -5067,7 +5342,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, friches riches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 252,
@@ -5087,7 +5363,8 @@ const PLANTS = [
     "eunis": "E1 pelouses sèches",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses sèches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 253,
@@ -5107,7 +5384,8 @@ const PLANTS = [
     "eunis": "C1 eaux stagnantes",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Mares, étangs",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 254,
@@ -5117,8 +5395,8 @@ const PLANTS = [
     "habitat": "Prairies humides, suintements",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Tige souvent trigone, feuilles engainantes ; épillets de laîches/scirpes à examiner.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -5128,7 +5406,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, suintements",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 255,
@@ -5148,7 +5427,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Berges, fossés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 256,
@@ -5168,7 +5448,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 257,
@@ -5188,7 +5469,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Marais, berges",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 258,
@@ -5208,7 +5490,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, jardins",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 259,
@@ -5229,7 +5512,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 260,
@@ -5250,7 +5534,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, haies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 261,
@@ -5260,8 +5545,8 @@ const PLANTS = [
     "habitat": "Haies humides, berges",
     "level": "À classer",
     "tags": [
-      "humide",
-      "haie"
+      "haie",
+      "humide"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -5271,7 +5556,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies humides, berges",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 262,
@@ -5291,7 +5577,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 263,
@@ -5311,7 +5598,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 264,
@@ -5331,7 +5619,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 265,
@@ -5351,7 +5640,8 @@ const PLANTS = [
     "eunis": "C1 eaux stagnantes",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Fossés, mares",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 266,
@@ -5361,8 +5651,8 @@ const PLANTS = [
     "habitat": "Fossés, prairies humides",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Tige souvent carrée, feuilles opposées, fleurs bilabiées, odeur parfois aromatique.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -5372,7 +5662,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Fossés, prairies humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 267,
@@ -5392,7 +5683,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 268,
@@ -5413,7 +5705,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, haies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 269,
@@ -5433,7 +5726,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 270,
@@ -5453,7 +5747,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Jardins, cultures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 271,
@@ -5463,8 +5758,8 @@ const PLANTS = [
     "habitat": "Prairies humides maigres",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -5474,7 +5769,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides maigres",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 272,
@@ -5494,7 +5790,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Fossés, berges",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 273,
@@ -5515,7 +5812,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, berges",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 274,
@@ -5535,7 +5833,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois clairs acides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 275,
@@ -5556,7 +5855,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 276,
@@ -5576,7 +5876,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 277,
@@ -5596,7 +5897,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, prairies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 278,
@@ -5606,8 +5908,8 @@ const PLANTS = [
     "habitat": "Prairies humides piétinées",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Fleur papilionacée fréquente, feuilles souvent composées, fruits en gousses.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -5617,7 +5919,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides piétinées",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 279,
@@ -5637,7 +5940,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 280,
@@ -5657,7 +5961,8 @@ const PLANTS = [
     "eunis": "À préciser selon habitat observé",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Talus frais, sols nus",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 281,
@@ -5677,7 +5982,8 @@ const PLANTS = [
     "eunis": "C1 eaux stagnantes",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Mares, roselières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 282,
@@ -5698,7 +6004,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, bois",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 283,
@@ -5708,8 +6015,8 @@ const PLANTS = [
     "habitat": "Prairies humides, fossés",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -5719,7 +6026,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, fossés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 284,
@@ -5739,7 +6047,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, talus",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 285,
@@ -5759,7 +6068,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Chemins, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 286,
@@ -5779,7 +6089,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, pelouses",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 287,
@@ -5799,7 +6110,8 @@ const PLANTS = [
     "eunis": "C1/C2 milieux aquatiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Ruisseaux, fossés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 288,
@@ -5820,7 +6132,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, haies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 289,
@@ -5840,7 +6153,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, jardins",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 290,
@@ -5850,9 +6164,9 @@ const PLANTS = [
     "habitat": "Haies humides, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "haie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -5862,7 +6176,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies humides, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 291,
@@ -5883,7 +6198,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, haies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 292,
@@ -5903,7 +6219,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 293,
@@ -5924,7 +6241,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois, haies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 294,
@@ -5944,7 +6262,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 295,
@@ -5965,7 +6284,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, bois",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 296,
@@ -5975,8 +6295,8 @@ const PLANTS = [
     "habitat": "Bois, landes",
     "level": "À classer",
     "tags": [
-      "bois",
-      "lande"
+      "lande",
+      "bois"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -5986,7 +6306,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois, landes",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 297,
@@ -6006,7 +6327,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Arbres, vergers, haies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 298,
@@ -6016,9 +6338,9 @@ const PLANTS = [
     "habitat": "Prairies humides, marais, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Tige souvent trigone, feuilles engainantes ; épillets de laîches/scirpes à examiner.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6028,7 +6350,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 299,
@@ -6038,9 +6361,9 @@ const PLANTS = [
     "habitat": "Prairies humides, marais, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Tige souvent trigone, feuilles engainantes ; épillets de laîches/scirpes à examiner.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6050,7 +6373,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 300,
@@ -6060,9 +6384,9 @@ const PLANTS = [
     "habitat": "Prairies humides, marais, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Tige souvent trigone, feuilles engainantes ; épillets de laîches/scirpes à examiner.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6072,7 +6396,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 301,
@@ -6082,9 +6407,9 @@ const PLANTS = [
     "habitat": "Prairies humides, marais, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Tige souvent trigone, feuilles engainantes ; épillets de laîches/scirpes à examiner.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6094,7 +6419,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 302,
@@ -6104,9 +6430,9 @@ const PLANTS = [
     "habitat": "Prairies humides, marais, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Tige souvent trigone, feuilles engainantes ; épillets de laîches/scirpes à examiner.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6116,7 +6442,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 303,
@@ -6126,9 +6453,9 @@ const PLANTS = [
     "habitat": "Prairies humides, marais, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Tige souvent trigone, feuilles engainantes ; épillets de laîches/scirpes à examiner.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6138,7 +6465,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 304,
@@ -6148,9 +6476,9 @@ const PLANTS = [
     "habitat": "Prairies humides, marais, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Tige souvent trigone, feuilles engainantes ; épillets de laîches/scirpes à examiner.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6160,7 +6488,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 305,
@@ -6170,9 +6499,9 @@ const PLANTS = [
     "habitat": "Prairies humides, marais, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Tige souvent trigone, feuilles engainantes ; épillets de laîches/scirpes à examiner.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6182,7 +6511,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 306,
@@ -6192,9 +6522,9 @@ const PLANTS = [
     "habitat": "Prairies humides, marais, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Tige souvent trigone, feuilles engainantes ; épillets de laîches/scirpes à examiner.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6204,7 +6534,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 307,
@@ -6214,9 +6545,9 @@ const PLANTS = [
     "habitat": "Prairies humides, marais, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Tige souvent trigone, feuilles engainantes ; épillets de laîches/scirpes à examiner.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6226,7 +6557,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 308,
@@ -6236,9 +6568,9 @@ const PLANTS = [
     "habitat": "Prairies humides, marais, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Tige souvent trigone, feuilles engainantes ; épillets de laîches/scirpes à examiner.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6248,7 +6580,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 309,
@@ -6258,9 +6591,9 @@ const PLANTS = [
     "habitat": "Prairies humides, marais, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Tige souvent trigone, feuilles engainantes ; épillets de laîches/scirpes à examiner.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6270,7 +6603,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 310,
@@ -6280,9 +6614,9 @@ const PLANTS = [
     "habitat": "Prairies humides, marais, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Tige souvent trigone, feuilles engainantes ; épillets de laîches/scirpes à examiner.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6292,7 +6626,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 311,
@@ -6302,9 +6637,9 @@ const PLANTS = [
     "habitat": "Prairies humides, marais, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Tige souvent trigone, feuilles engainantes ; épillets de laîches/scirpes à examiner.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6314,7 +6649,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 312,
@@ -6324,9 +6660,9 @@ const PLANTS = [
     "habitat": "Prairies humides, marais, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Tige souvent trigone, feuilles engainantes ; épillets de laîches/scirpes à examiner.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6336,7 +6672,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 313,
@@ -6346,9 +6683,9 @@ const PLANTS = [
     "habitat": "Prairies humides, marais, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Tige souvent trigone, feuilles engainantes ; épillets de laîches/scirpes à examiner.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6358,7 +6695,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 314,
@@ -6368,9 +6706,9 @@ const PLANTS = [
     "habitat": "Prairies humides, marais, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Tige souvent trigone, feuilles engainantes ; épillets de laîches/scirpes à examiner.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6380,7 +6718,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 315,
@@ -6390,9 +6729,9 @@ const PLANTS = [
     "habitat": "Prairies humides, marais, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Tige souvent trigone, feuilles engainantes ; épillets de laîches/scirpes à examiner.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6402,7 +6741,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 316,
@@ -6412,9 +6752,9 @@ const PLANTS = [
     "habitat": "Prairies humides, marais, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Tige souvent trigone, feuilles engainantes ; épillets de laîches/scirpes à examiner.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6424,7 +6764,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 317,
@@ -6434,9 +6775,9 @@ const PLANTS = [
     "habitat": "Prairies humides, marais, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Tige souvent trigone, feuilles engainantes ; épillets de laîches/scirpes à examiner.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6446,7 +6787,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 318,
@@ -6456,9 +6798,9 @@ const PLANTS = [
     "habitat": "Prairies humides, marais, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Tige souvent trigone, feuilles engainantes ; épillets de laîches/scirpes à examiner.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6468,7 +6810,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 319,
@@ -6478,9 +6821,9 @@ const PLANTS = [
     "habitat": "Prairies humides, marais, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Tige souvent trigone, feuilles engainantes ; épillets de laîches/scirpes à examiner.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6490,7 +6833,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 320,
@@ -6500,9 +6844,9 @@ const PLANTS = [
     "habitat": "Prairies humides, marais, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Tige souvent trigone, feuilles engainantes ; épillets de laîches/scirpes à examiner.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6512,7 +6856,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 321,
@@ -6522,8 +6867,8 @@ const PLANTS = [
     "habitat": "Prairies humides, fossés, vases",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Tiges ou feuilles cylindriques ; fleurs discrètes à tépales brunâtres.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6533,7 +6878,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, fossés, vases",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 322,
@@ -6543,8 +6889,8 @@ const PLANTS = [
     "habitat": "Prairies humides, fossés, vases",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Tiges ou feuilles cylindriques ; fleurs discrètes à tépales brunâtres.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6554,7 +6900,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, fossés, vases",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 323,
@@ -6564,8 +6911,8 @@ const PLANTS = [
     "habitat": "Prairies humides, fossés, vases",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Tiges ou feuilles cylindriques ; fleurs discrètes à tépales brunâtres.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6575,7 +6922,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, fossés, vases",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 324,
@@ -6585,8 +6933,8 @@ const PLANTS = [
     "habitat": "Prairies humides, fossés, vases",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Tiges ou feuilles cylindriques ; fleurs discrètes à tépales brunâtres.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6596,7 +6944,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, fossés, vases",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 325,
@@ -6606,8 +6955,8 @@ const PLANTS = [
     "habitat": "Prairies humides, fossés, vases",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Tiges ou feuilles cylindriques ; fleurs discrètes à tépales brunâtres.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6617,7 +6966,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, fossés, vases",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 326,
@@ -6627,8 +6977,8 @@ const PLANTS = [
     "habitat": "Prairies humides, fossés, vases",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Tiges ou feuilles cylindriques ; fleurs discrètes à tépales brunâtres.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6638,7 +6988,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, fossés, vases",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 327,
@@ -6648,8 +6999,8 @@ const PLANTS = [
     "habitat": "Prairies humides, fossés, vases",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Tiges ou feuilles cylindriques ; fleurs discrètes à tépales brunâtres.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6659,7 +7010,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, fossés, vases",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 328,
@@ -6669,8 +7021,8 @@ const PLANTS = [
     "habitat": "Prairies humides, fossés, vases",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Tiges ou feuilles cylindriques ; fleurs discrètes à tépales brunâtres.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6680,7 +7032,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, fossés, vases",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 329,
@@ -6690,8 +7043,8 @@ const PLANTS = [
     "habitat": "Prairies humides, fossés, vases",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Tiges ou feuilles cylindriques ; fleurs discrètes à tépales brunâtres.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6701,7 +7054,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, fossés, vases",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 330,
@@ -6711,8 +7065,8 @@ const PLANTS = [
     "habitat": "Prairies humides, fossés, vases",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Tiges ou feuilles cylindriques ; fleurs discrètes à tépales brunâtres.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -6722,7 +7076,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, fossés, vases",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 331,
@@ -6743,7 +7098,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 332,
@@ -6764,7 +7120,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 333,
@@ -6785,7 +7142,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 334,
@@ -6806,7 +7164,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 335,
@@ -6827,7 +7186,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 336,
@@ -6848,7 +7208,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 337,
@@ -6869,7 +7230,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 338,
@@ -6890,7 +7252,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 339,
@@ -6911,7 +7274,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 340,
@@ -6932,7 +7296,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 341,
@@ -6953,7 +7318,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses, bois",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 342,
@@ -6974,7 +7340,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses, bois",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 343,
@@ -6995,7 +7362,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses, bois",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 344,
@@ -7016,7 +7384,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses, bois",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 345,
@@ -7037,7 +7406,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses, bois",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 346,
@@ -7058,7 +7428,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses, bois",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 347,
@@ -7079,7 +7450,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses, bois",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 348,
@@ -7100,7 +7472,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, friches, cultures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 349,
@@ -7121,7 +7494,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, friches, cultures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 350,
@@ -7142,7 +7516,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, friches, cultures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 351,
@@ -7163,7 +7538,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, friches, cultures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 352,
@@ -7184,7 +7560,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, friches, cultures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 353,
@@ -7205,7 +7582,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, friches, cultures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 354,
@@ -7226,7 +7604,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, friches, cultures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 355,
@@ -7247,7 +7626,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, friches, cultures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 356,
@@ -7257,8 +7637,8 @@ const PLANTS = [
     "habitat": "Prairies, landes, zones humides",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
+      "humide",
       "lande"
     ],
     "criteria": "Tiges à nœuds, feuilles à gaine et ligule ; observer épillet, glumes et arêtes.",
@@ -7269,7 +7649,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, landes, zones humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 357,
@@ -7279,8 +7660,8 @@ const PLANTS = [
     "habitat": "Prairies, landes, zones humides",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
+      "humide",
       "lande"
     ],
     "criteria": "Tiges à nœuds, feuilles à gaine et ligule ; observer épillet, glumes et arêtes.",
@@ -7291,7 +7672,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, landes, zones humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 358,
@@ -7301,8 +7683,8 @@ const PLANTS = [
     "habitat": "Prairies, landes, zones humides",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
+      "humide",
       "lande"
     ],
     "criteria": "Tiges à nœuds, feuilles à gaine et ligule ; observer épillet, glumes et arêtes.",
@@ -7313,7 +7695,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, landes, zones humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 359,
@@ -7323,8 +7706,8 @@ const PLANTS = [
     "habitat": "Prairies, landes, zones humides",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
+      "humide",
       "lande"
     ],
     "criteria": "Tiges à nœuds, feuilles à gaine et ligule ; observer épillet, glumes et arêtes.",
@@ -7335,7 +7718,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, landes, zones humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 360,
@@ -7345,8 +7729,8 @@ const PLANTS = [
     "habitat": "Prairies et zones humides",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Tiges à nœuds, feuilles à gaine et ligule ; observer épillet, glumes et arêtes.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -7356,7 +7740,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies et zones humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 361,
@@ -7366,8 +7751,8 @@ const PLANTS = [
     "habitat": "Prairies et zones humides",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Tiges à nœuds, feuilles à gaine et ligule ; observer épillet, glumes et arêtes.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -7377,7 +7762,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies et zones humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 362,
@@ -7387,8 +7773,8 @@ const PLANTS = [
     "habitat": "Prairies et zones humides",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Tiges à nœuds, feuilles à gaine et ligule ; observer épillet, glumes et arêtes.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -7398,7 +7784,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies et zones humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 363,
@@ -7418,7 +7805,8 @@ const PLANTS = [
     "eunis": "F4 landes tempérées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses sableuses, landes",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 364,
@@ -7438,7 +7826,8 @@ const PLANTS = [
     "eunis": "F4 landes tempérées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses sableuses, landes",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 365,
@@ -7458,7 +7847,8 @@ const PLANTS = [
     "eunis": "E1 pelouses sèches",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses sèches, sables",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 366,
@@ -7478,7 +7868,8 @@ const PLANTS = [
     "eunis": "E1 pelouses sèches",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses sèches, sables",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 367,
@@ -7498,7 +7889,8 @@ const PLANTS = [
     "eunis": "E1 pelouses sèches",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses sèches, sables",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 368,
@@ -7519,7 +7911,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 369,
@@ -7540,7 +7933,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 370,
@@ -7561,7 +7955,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 371,
@@ -7582,7 +7977,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 372,
@@ -7603,7 +7999,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 373,
@@ -7624,7 +8021,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 374,
@@ -7645,7 +8043,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 375,
@@ -7666,7 +8065,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 376,
@@ -7687,7 +8087,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 377,
@@ -7708,7 +8109,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 378,
@@ -7719,8 +8121,8 @@ const PLANTS = [
     "level": "À classer",
     "tags": [
       "haie",
-      "prairie",
-      "friche"
+      "friche",
+      "prairie"
     ],
     "criteria": "Fleur papilionacée fréquente, feuilles souvent composées, fruits en gousses.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -7730,7 +8132,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, haies, cultures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 379,
@@ -7741,8 +8144,8 @@ const PLANTS = [
     "level": "À classer",
     "tags": [
       "haie",
-      "prairie",
-      "friche"
+      "friche",
+      "prairie"
     ],
     "criteria": "Fleur papilionacée fréquente, feuilles souvent composées, fruits en gousses.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -7752,7 +8155,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, haies, cultures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 380,
@@ -7763,8 +8167,8 @@ const PLANTS = [
     "level": "À classer",
     "tags": [
       "haie",
-      "prairie",
-      "friche"
+      "friche",
+      "prairie"
     ],
     "criteria": "Fleur papilionacée fréquente, feuilles souvent composées, fruits en gousses.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -7774,7 +8178,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, haies, cultures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 381,
@@ -7785,8 +8190,8 @@ const PLANTS = [
     "level": "À classer",
     "tags": [
       "haie",
-      "prairie",
-      "friche"
+      "friche",
+      "prairie"
     ],
     "criteria": "Fleur papilionacée fréquente, feuilles souvent composées, fruits en gousses.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -7796,7 +8201,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, haies, cultures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 382,
@@ -7807,8 +8213,8 @@ const PLANTS = [
     "level": "À classer",
     "tags": [
       "haie",
-      "prairie",
-      "friche"
+      "friche",
+      "prairie"
     ],
     "criteria": "Fleur papilionacée fréquente, feuilles souvent composées, fruits en gousses.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -7818,7 +8224,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, haies, cultures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 383,
@@ -7829,8 +8236,8 @@ const PLANTS = [
     "level": "À classer",
     "tags": [
       "haie",
-      "prairie",
-      "friche"
+      "friche",
+      "prairie"
     ],
     "criteria": "Fleur papilionacée fréquente, feuilles souvent composées, fruits en gousses.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -7840,7 +8247,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, haies, cultures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 384,
@@ -7851,8 +8259,8 @@ const PLANTS = [
     "level": "À classer",
     "tags": [
       "haie",
-      "prairie",
-      "friche"
+      "friche",
+      "prairie"
     ],
     "criteria": "Fleur papilionacée fréquente, feuilles souvent composées, fruits en gousses.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -7862,7 +8270,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, haies, cultures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 385,
@@ -7883,7 +8292,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, haies, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 386,
@@ -7904,7 +8314,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, haies, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 387,
@@ -7925,7 +8336,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, haies, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 388,
@@ -7946,7 +8358,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, haies, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 389,
@@ -7967,7 +8380,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, haies, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 390,
@@ -7988,7 +8402,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, haies, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 391,
@@ -8009,7 +8424,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, haies, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 392,
@@ -8030,7 +8446,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, prairies, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 393,
@@ -8051,7 +8468,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, prairies, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 394,
@@ -8072,7 +8490,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, prairies, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 395,
@@ -8093,7 +8512,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, prairies, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 396,
@@ -8114,7 +8534,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, prairies, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 397,
@@ -8124,8 +8545,8 @@ const PLANTS = [
     "habitat": "Prairies, pelouses, zones humides",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Fleur papilionacée fréquente, feuilles souvent composées, fruits en gousses.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -8135,7 +8556,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses, zones humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 398,
@@ -8145,8 +8567,8 @@ const PLANTS = [
     "habitat": "Prairies, pelouses, zones humides",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Fleur papilionacée fréquente, feuilles souvent composées, fruits en gousses.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -8156,7 +8578,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses, zones humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 399,
@@ -8166,8 +8589,8 @@ const PLANTS = [
     "habitat": "Prairies, pelouses, zones humides",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Fleur papilionacée fréquente, feuilles souvent composées, fruits en gousses.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -8177,7 +8600,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses, zones humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 400,
@@ -8187,9 +8611,9 @@ const PLANTS = [
     "habitat": "Prairies, fossés, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Fleurs souvent à nombreuses pièces libres ; feuilles très variables.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -8199,7 +8623,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, fossés, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 401,
@@ -8209,9 +8634,9 @@ const PLANTS = [
     "habitat": "Prairies, fossés, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Fleurs souvent à nombreuses pièces libres ; feuilles très variables.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -8221,7 +8646,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, fossés, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 402,
@@ -8231,9 +8657,9 @@ const PLANTS = [
     "habitat": "Prairies, fossés, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Fleurs souvent à nombreuses pièces libres ; feuilles très variables.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -8243,7 +8669,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, fossés, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 403,
@@ -8253,9 +8680,9 @@ const PLANTS = [
     "habitat": "Prairies, fossés, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Fleurs souvent à nombreuses pièces libres ; feuilles très variables.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -8265,7 +8692,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, fossés, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 404,
@@ -8275,9 +8703,9 @@ const PLANTS = [
     "habitat": "Prairies, fossés, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Fleurs souvent à nombreuses pièces libres ; feuilles très variables.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -8287,7 +8715,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, fossés, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 405,
@@ -8297,9 +8726,9 @@ const PLANTS = [
     "habitat": "Prairies, fossés, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Fleurs souvent à nombreuses pièces libres ; feuilles très variables.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -8309,7 +8738,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, fossés, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 406,
@@ -8319,9 +8749,9 @@ const PLANTS = [
     "habitat": "Prairies, fossés, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Fleurs souvent à nombreuses pièces libres ; feuilles très variables.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -8331,7 +8761,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, fossés, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 407,
@@ -8341,9 +8772,9 @@ const PLANTS = [
     "habitat": "Prairies, fossés, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Fleurs souvent à nombreuses pièces libres ; feuilles très variables.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -8353,7 +8784,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, fossés, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 408,
@@ -8363,9 +8795,9 @@ const PLANTS = [
     "habitat": "Prairies, fossés, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Fleurs souvent à nombreuses pièces libres ; feuilles très variables.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -8375,7 +8807,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, fossés, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 409,
@@ -8385,9 +8818,9 @@ const PLANTS = [
     "habitat": "Prairies, fossés, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Fleurs souvent à nombreuses pièces libres ; feuilles très variables.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -8397,7 +8830,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, fossés, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 410,
@@ -8408,6 +8842,7 @@ const PLANTS = [
     "level": "À classer",
     "tags": [
       "prairie",
+      "humide",
       "friche"
     ],
     "criteria": "Famille variable ; observer corolle, feuilles et inflorescence.",
@@ -8418,7 +8853,8 @@ const PLANTS = [
     "eunis": "C1/C2 milieux aquatiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, prairies, ruisseaux",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 411,
@@ -8429,6 +8865,7 @@ const PLANTS = [
     "level": "À classer",
     "tags": [
       "prairie",
+      "humide",
       "friche"
     ],
     "criteria": "Famille variable ; observer corolle, feuilles et inflorescence.",
@@ -8439,7 +8876,8 @@ const PLANTS = [
     "eunis": "C1/C2 milieux aquatiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, prairies, ruisseaux",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 412,
@@ -8450,6 +8888,7 @@ const PLANTS = [
     "level": "À classer",
     "tags": [
       "prairie",
+      "humide",
       "friche"
     ],
     "criteria": "Famille variable ; observer corolle, feuilles et inflorescence.",
@@ -8460,7 +8899,8 @@ const PLANTS = [
     "eunis": "C1/C2 milieux aquatiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, prairies, ruisseaux",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 413,
@@ -8471,6 +8911,7 @@ const PLANTS = [
     "level": "À classer",
     "tags": [
       "prairie",
+      "humide",
       "friche"
     ],
     "criteria": "Famille variable ; observer corolle, feuilles et inflorescence.",
@@ -8481,7 +8922,8 @@ const PLANTS = [
     "eunis": "C1/C2 milieux aquatiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, prairies, ruisseaux",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 414,
@@ -8492,6 +8934,7 @@ const PLANTS = [
     "level": "À classer",
     "tags": [
       "prairie",
+      "humide",
       "friche"
     ],
     "criteria": "Famille variable ; observer corolle, feuilles et inflorescence.",
@@ -8502,7 +8945,8 @@ const PLANTS = [
     "eunis": "C1/C2 milieux aquatiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, prairies, ruisseaux",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 415,
@@ -8513,6 +8957,7 @@ const PLANTS = [
     "level": "À classer",
     "tags": [
       "prairie",
+      "humide",
       "friche"
     ],
     "criteria": "Famille variable ; observer corolle, feuilles et inflorescence.",
@@ -8523,7 +8968,8 @@ const PLANTS = [
     "eunis": "C1/C2 milieux aquatiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, prairies, ruisseaux",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 416,
@@ -8534,6 +8980,7 @@ const PLANTS = [
     "level": "À classer",
     "tags": [
       "prairie",
+      "humide",
       "friche"
     ],
     "criteria": "Famille variable ; observer corolle, feuilles et inflorescence.",
@@ -8544,7 +8991,8 @@ const PLANTS = [
     "eunis": "C1/C2 milieux aquatiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, prairies, ruisseaux",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 417,
@@ -8555,6 +9003,7 @@ const PLANTS = [
     "level": "À classer",
     "tags": [
       "prairie",
+      "humide",
       "friche"
     ],
     "criteria": "Famille variable ; observer corolle, feuilles et inflorescence.",
@@ -8565,7 +9014,8 @@ const PLANTS = [
     "eunis": "C1/C2 milieux aquatiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, prairies, ruisseaux",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 418,
@@ -8576,6 +9026,7 @@ const PLANTS = [
     "level": "À classer",
     "tags": [
       "prairie",
+      "humide",
       "friche"
     ],
     "criteria": "Famille variable ; observer corolle, feuilles et inflorescence.",
@@ -8586,7 +9037,8 @@ const PLANTS = [
     "eunis": "C1/C2 milieux aquatiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, prairies, ruisseaux",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 419,
@@ -8607,7 +9059,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, haies, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 420,
@@ -8628,7 +9081,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, haies, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 421,
@@ -8649,7 +9103,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, haies, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 422,
@@ -8670,7 +9125,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, haies, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 423,
@@ -8691,7 +9147,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, haies, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 424,
@@ -8712,7 +9169,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, haies, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 425,
@@ -8733,7 +9191,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, haies, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 426,
@@ -8754,7 +9213,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, pelouses, bois",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 427,
@@ -8775,7 +9235,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, pelouses, bois",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 428,
@@ -8796,7 +9257,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, pelouses, bois",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 429,
@@ -8817,7 +9279,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, pelouses, bois",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 430,
@@ -8838,7 +9301,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, pelouses, bois",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 431,
@@ -8859,7 +9323,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, pelouses, bois",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 432,
@@ -8880,7 +9345,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, pelouses, bois",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 433,
@@ -8890,8 +9356,8 @@ const PLANTS = [
     "habitat": "Prairies, friches, zones humides",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
+      "humide",
       "friche"
     ],
     "criteria": "Ochréa fréquente aux nœuds, feuilles simples, fleurs discrètes.",
@@ -8902,7 +9368,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, friches, zones humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 434,
@@ -8912,8 +9379,8 @@ const PLANTS = [
     "habitat": "Prairies, friches, zones humides",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
+      "humide",
       "friche"
     ],
     "criteria": "Ochréa fréquente aux nœuds, feuilles simples, fleurs discrètes.",
@@ -8924,7 +9391,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, friches, zones humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 435,
@@ -8934,8 +9402,8 @@ const PLANTS = [
     "habitat": "Prairies, friches, zones humides",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
+      "humide",
       "friche"
     ],
     "criteria": "Ochréa fréquente aux nœuds, feuilles simples, fleurs discrètes.",
@@ -8946,7 +9414,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, friches, zones humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 436,
@@ -8956,8 +9425,8 @@ const PLANTS = [
     "habitat": "Prairies, friches, zones humides",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
+      "humide",
       "friche"
     ],
     "criteria": "Ochréa fréquente aux nœuds, feuilles simples, fleurs discrètes.",
@@ -8968,7 +9437,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, friches, zones humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 437,
@@ -8978,8 +9448,8 @@ const PLANTS = [
     "habitat": "Prairies, friches, zones humides",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
+      "humide",
       "friche"
     ],
     "criteria": "Ochréa fréquente aux nœuds, feuilles simples, fleurs discrètes.",
@@ -8990,7 +9460,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, friches, zones humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 438,
@@ -9000,8 +9471,8 @@ const PLANTS = [
     "habitat": "Prairies, friches, zones humides",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
+      "humide",
       "friche"
     ],
     "criteria": "Ochréa fréquente aux nœuds, feuilles simples, fleurs discrètes.",
@@ -9012,7 +9483,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, friches, zones humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 439,
@@ -9032,7 +9504,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Chemins, cultures, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 440,
@@ -9052,7 +9525,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Chemins, cultures, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 441,
@@ -9072,7 +9546,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Chemins, cultures, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 442,
@@ -9093,7 +9568,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Berges, fossés, cultures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 443,
@@ -9114,7 +9590,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Berges, fossés, cultures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 444,
@@ -9135,7 +9612,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Berges, fossés, cultures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 445,
@@ -9156,7 +9634,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, prairies, landes",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 446,
@@ -9177,7 +9656,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, prairies, landes",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 447,
@@ -9198,7 +9678,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, prairies, landes",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 448,
@@ -9219,7 +9700,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, prairies, landes",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 449,
@@ -9240,7 +9722,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, prairies, landes",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 450,
@@ -9261,7 +9744,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, prairies, landes",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 451,
@@ -9281,7 +9765,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, lisières, fourrés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 452,
@@ -9301,7 +9786,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, lisières, fourrés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 453,
@@ -9321,7 +9807,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, lisières, fourrés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 454,
@@ -9341,7 +9828,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, lisières, fourrés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 455,
@@ -9361,7 +9849,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, lisières, fourrés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 456,
@@ -9381,7 +9870,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, lisières, fourrés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 457,
@@ -9401,7 +9891,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, lisières, fourrés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 458,
@@ -9421,7 +9912,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 459,
@@ -9441,7 +9933,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 460,
@@ -9461,7 +9954,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 461,
@@ -9481,7 +9975,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 462,
@@ -9501,7 +9996,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 463,
@@ -9521,7 +10017,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 464,
@@ -9531,8 +10028,8 @@ const PLANTS = [
     "habitat": "Berges, marais, haies humides",
     "level": "À classer",
     "tags": [
-      "humide",
-      "haie"
+      "haie",
+      "humide"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -9542,7 +10039,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Berges, marais, haies humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 465,
@@ -9552,8 +10050,8 @@ const PLANTS = [
     "habitat": "Berges, marais, haies humides",
     "level": "À classer",
     "tags": [
-      "humide",
-      "haie"
+      "haie",
+      "humide"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -9563,7 +10061,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Berges, marais, haies humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 466,
@@ -9573,8 +10072,8 @@ const PLANTS = [
     "habitat": "Berges, marais, haies humides",
     "level": "À classer",
     "tags": [
-      "humide",
-      "haie"
+      "haie",
+      "humide"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -9584,7 +10083,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Berges, marais, haies humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 467,
@@ -9594,8 +10094,8 @@ const PLANTS = [
     "habitat": "Berges, marais, haies humides",
     "level": "À classer",
     "tags": [
-      "humide",
-      "haie"
+      "haie",
+      "humide"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -9605,7 +10105,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Berges, marais, haies humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 468,
@@ -9615,8 +10116,8 @@ const PLANTS = [
     "habitat": "Berges, marais, haies humides",
     "level": "À classer",
     "tags": [
-      "humide",
-      "haie"
+      "haie",
+      "humide"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -9626,7 +10127,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Berges, marais, haies humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 469,
@@ -9646,7 +10148,8 @@ const PLANTS = [
     "eunis": "F4 landes tempérées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses et landes sèches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 470,
@@ -9666,7 +10169,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 471,
@@ -9686,7 +10190,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 472,
@@ -9706,7 +10211,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 473,
@@ -9726,7 +10232,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 474,
@@ -9746,7 +10253,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 475,
@@ -9756,8 +10264,8 @@ const PLANTS = [
     "habitat": "Prairies, haies, marais",
     "level": "À classer",
     "tags": [
-      "humide",
       "haie",
+      "humide",
       "prairie"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
@@ -9768,7 +10276,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, haies, marais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 476,
@@ -9778,8 +10287,8 @@ const PLANTS = [
     "habitat": "Prairies, haies, marais",
     "level": "À classer",
     "tags": [
-      "humide",
       "haie",
+      "humide",
       "prairie"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
@@ -9790,7 +10299,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, haies, marais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 477,
@@ -9800,8 +10310,8 @@ const PLANTS = [
     "habitat": "Prairies, haies, marais",
     "level": "À classer",
     "tags": [
-      "humide",
       "haie",
+      "humide",
       "prairie"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
@@ -9812,7 +10322,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, haies, marais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 478,
@@ -9822,8 +10333,8 @@ const PLANTS = [
     "habitat": "Prairies, haies, marais",
     "level": "À classer",
     "tags": [
-      "humide",
       "haie",
+      "humide",
       "prairie"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
@@ -9834,7 +10345,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, haies, marais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 479,
@@ -9844,8 +10356,8 @@ const PLANTS = [
     "habitat": "Prairies, haies, marais",
     "level": "À classer",
     "tags": [
-      "humide",
       "haie",
+      "humide",
       "prairie"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
@@ -9856,7 +10368,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, haies, marais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 480,
@@ -9867,8 +10380,8 @@ const PLANTS = [
     "level": "À classer",
     "tags": [
       "haie",
-      "prairie",
-      "friche"
+      "friche",
+      "prairie"
     ],
     "criteria": "Feuilles opposées, nœuds marqués, fleurs souvent à 5 pétales.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -9878,7 +10391,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, haies, cultures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 481,
@@ -9889,8 +10403,8 @@ const PLANTS = [
     "level": "À classer",
     "tags": [
       "haie",
-      "prairie",
-      "friche"
+      "friche",
+      "prairie"
     ],
     "criteria": "Feuilles opposées, nœuds marqués, fleurs souvent à 5 pétales.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -9900,7 +10414,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, haies, cultures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 482,
@@ -9911,8 +10426,8 @@ const PLANTS = [
     "level": "À classer",
     "tags": [
       "haie",
-      "prairie",
-      "friche"
+      "friche",
+      "prairie"
     ],
     "criteria": "Feuilles opposées, nœuds marqués, fleurs souvent à 5 pétales.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -9922,7 +10437,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, haies, cultures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 483,
@@ -9933,8 +10449,8 @@ const PLANTS = [
     "level": "À classer",
     "tags": [
       "haie",
-      "prairie",
-      "friche"
+      "friche",
+      "prairie"
     ],
     "criteria": "Feuilles opposées, nœuds marqués, fleurs souvent à 5 pétales.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -9944,7 +10460,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, haies, cultures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 484,
@@ -9964,7 +10481,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, friches, chemins",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 485,
@@ -9984,7 +10502,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, friches, chemins",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 486,
@@ -10004,7 +10523,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, friches, chemins",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 487,
@@ -10024,7 +10544,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, friches, chemins",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 488,
@@ -10045,7 +10566,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, friches, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 489,
@@ -10066,7 +10588,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, friches, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 490,
@@ -10087,7 +10610,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, friches, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 491,
@@ -10108,7 +10632,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, friches, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 492,
@@ -10128,7 +10653,8 @@ const PLANTS = [
     "eunis": "E1 pelouses sèches",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, sables",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 493,
@@ -10148,7 +10674,8 @@ const PLANTS = [
     "eunis": "E1 pelouses sèches",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, sables",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 494,
@@ -10168,7 +10695,8 @@ const PLANTS = [
     "eunis": "E1 pelouses sèches",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, sables",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 495,
@@ -10188,7 +10716,8 @@ const PLANTS = [
     "eunis": "À préciser selon habitat observé",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Sables, vases, chemins",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 496,
@@ -10208,7 +10737,8 @@ const PLANTS = [
     "eunis": "À préciser selon habitat observé",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Sables, vases, chemins",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 497,
@@ -10228,7 +10758,8 @@ const PLANTS = [
     "eunis": "À préciser selon habitat observé",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Sables, vases, chemins",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 498,
@@ -10238,8 +10769,8 @@ const PLANTS = [
     "habitat": "Prairies, cultures, marais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
+      "humide",
       "friche"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
@@ -10250,7 +10781,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, cultures, marais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 499,
@@ -10260,8 +10792,8 @@ const PLANTS = [
     "habitat": "Prairies, cultures, marais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
+      "humide",
       "friche"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
@@ -10272,7 +10804,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, cultures, marais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 500,
@@ -10282,8 +10815,8 @@ const PLANTS = [
     "habitat": "Prairies, cultures, marais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
+      "humide",
       "friche"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
@@ -10294,7 +10827,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, cultures, marais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 501,
@@ -10304,8 +10838,8 @@ const PLANTS = [
     "habitat": "Prairies, cultures, marais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
+      "humide",
       "friche"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
@@ -10316,7 +10850,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, cultures, marais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 502,
@@ -10337,7 +10872,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Zones humides, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 503,
@@ -10358,7 +10894,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Zones humides, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 504,
@@ -10379,7 +10916,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Zones humides, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 505,
@@ -10400,7 +10938,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Zones humides, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 506,
@@ -10421,7 +10960,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Zones humides, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 507,
@@ -10441,7 +10981,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, sables",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 508,
@@ -10461,7 +11002,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, sables",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 509,
@@ -10481,7 +11023,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Zones humides, fossés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 510,
@@ -10501,7 +11044,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Zones humides, fossés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 511,
@@ -10521,7 +11065,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Zones humides, fossés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 512,
@@ -10541,7 +11086,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Zones humides, fossés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 513,
@@ -10551,8 +11097,8 @@ const PLANTS = [
     "habitat": "Bois, friches, zones humides",
     "level": "À classer",
     "tags": [
-      "humide",
       "bois",
+      "humide",
       "friche"
     ],
     "criteria": "Tige souvent carrée, feuilles opposées, fleurs bilabiées, odeur parfois aromatique.",
@@ -10563,7 +11109,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois, friches, zones humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 514,
@@ -10573,8 +11120,8 @@ const PLANTS = [
     "habitat": "Bois, friches, zones humides",
     "level": "À classer",
     "tags": [
-      "humide",
       "bois",
+      "humide",
       "friche"
     ],
     "criteria": "Tige souvent carrée, feuilles opposées, fleurs bilabiées, odeur parfois aromatique.",
@@ -10585,7 +11132,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois, friches, zones humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 515,
@@ -10606,7 +11154,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, haies, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 516,
@@ -10627,7 +11176,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, haies, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 517,
@@ -10648,7 +11198,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, haies, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 518,
@@ -10668,7 +11219,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 519,
@@ -10688,7 +11240,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 520,
@@ -10708,7 +11261,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 521,
@@ -10728,7 +11282,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, bois clairs",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 522,
@@ -10748,7 +11303,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Marais, berges",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 523,
@@ -10768,7 +11324,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, chemins, prairies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 524,
@@ -10788,7 +11345,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, chemins, prairies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 525,
@@ -10808,7 +11366,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, talus, cultures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 526,
@@ -10828,7 +11387,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, talus, cultures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 527,
@@ -10848,7 +11408,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, talus, cultures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 528,
@@ -10858,8 +11419,8 @@ const PLANTS = [
     "habitat": "Landes, bois, coupes",
     "level": "À classer",
     "tags": [
-      "bois",
-      "lande"
+      "lande",
+      "bois"
     ],
     "criteria": "Famille variable ; observer corolle, feuilles et inflorescence.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -10869,7 +11430,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Landes, bois, coupes",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 529,
@@ -10879,8 +11441,8 @@ const PLANTS = [
     "habitat": "Zones humides, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -10890,7 +11452,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Zones humides, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 530,
@@ -10900,8 +11463,8 @@ const PLANTS = [
     "habitat": "Zones humides, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -10911,7 +11474,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Zones humides, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 531,
@@ -10921,8 +11485,8 @@ const PLANTS = [
     "habitat": "Zones humides, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -10932,7 +11496,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Zones humides, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 532,
@@ -10942,8 +11507,8 @@ const PLANTS = [
     "habitat": "Zones humides, bois frais",
     "level": "À classer",
     "tags": [
-      "humide",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -10953,7 +11518,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Zones humides, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 533,
@@ -10974,7 +11540,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois, prairies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 534,
@@ -10994,7 +11561,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 535,
@@ -11014,7 +11582,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 536,
@@ -11024,8 +11593,8 @@ const PLANTS = [
     "habitat": "Prairies, friches, marais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
+      "humide",
       "friche"
     ],
     "criteria": "Capitules floraux ; vérifier ligules/tubules, involucre, feuilles et akènes.",
@@ -11036,7 +11605,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, friches, marais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 537,
@@ -11046,8 +11616,8 @@ const PLANTS = [
     "habitat": "Prairies, friches, marais",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
+      "humide",
       "friche"
     ],
     "criteria": "Capitules floraux ; vérifier ligules/tubules, involucre, feuilles et akènes.",
@@ -11058,7 +11628,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, friches, marais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 538,
@@ -11078,7 +11649,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 539,
@@ -11098,7 +11670,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 540,
@@ -11118,7 +11691,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 541,
@@ -11138,7 +11712,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, chemins",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 542,
@@ -11158,7 +11733,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, chemins",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 543,
@@ -11178,7 +11754,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, chemins",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 544,
@@ -11198,7 +11775,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, chemins",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 545,
@@ -11219,7 +11797,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, cultures, zones humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 546,
@@ -11240,7 +11819,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, cultures, zones humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 547,
@@ -11261,7 +11841,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, cultures, zones humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 548,
@@ -11282,7 +11863,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, cultures, zones humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 549,
@@ -11303,7 +11885,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 550,
@@ -11324,7 +11907,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 551,
@@ -11344,7 +11928,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, pelouses",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 552,
@@ -11364,7 +11949,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, pelouses",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 553,
@@ -11384,7 +11970,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 554,
@@ -11405,7 +11992,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, bois",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 555,
@@ -11426,7 +12014,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, bois",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 556,
@@ -11446,7 +12035,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, bois clairs",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 557,
@@ -11466,7 +12056,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, bois clairs",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 558,
@@ -11486,7 +12077,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, bois clairs",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 559,
@@ -11506,7 +12098,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, bois clairs",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 560,
@@ -11526,7 +12119,8 @@ const PLANTS = [
     "eunis": "E1 pelouses sèches",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses sèches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 561,
@@ -11546,7 +12140,8 @@ const PLANTS = [
     "eunis": "E1 pelouses sèches",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses sèches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 562,
@@ -11566,7 +12161,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, prairies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 563,
@@ -11586,7 +12182,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, prairies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 564,
@@ -11606,7 +12203,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, prairies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 565,
@@ -11626,7 +12224,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 566,
@@ -11646,7 +12245,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 567,
@@ -11666,7 +12266,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, talus",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 568,
@@ -11686,7 +12287,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, bords de chemins",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 569,
@@ -11706,7 +12308,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, bords de chemins",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 570,
@@ -11726,7 +12329,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 571,
@@ -11746,7 +12350,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 572,
@@ -11766,7 +12371,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Chemins, cultures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 573,
@@ -11786,7 +12392,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 574,
@@ -11806,7 +12413,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 575,
@@ -11826,7 +12434,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Zones humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 576,
@@ -11846,7 +12455,8 @@ const PLANTS = [
     "eunis": "À préciser selon habitat observé",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Berges, vases",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 577,
@@ -11866,7 +12476,8 @@ const PLANTS = [
     "eunis": "À préciser selon habitat observé",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Berges, vases",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 578,
@@ -11886,7 +12497,8 @@ const PLANTS = [
     "eunis": "À préciser selon habitat observé",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Vases, chemins",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 579,
@@ -11906,7 +12518,8 @@ const PLANTS = [
     "eunis": "À préciser selon habitat observé",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Vases, chemins",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 580,
@@ -11926,7 +12539,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, murs",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 581,
@@ -11940,13 +12554,14 @@ const PLANTS = [
     ],
     "criteria": "Capitules floraux ; vérifier ligules/tubules, involucre, feuilles et akènes.",
     "confusions": "À préciser avec la flore de terrain.",
-    "status": "À vérifier selon listes régionales",
+    "status": "Espèce exotique/invasive ou à surveiller selon contexte régional",
     "short": "Capitules floraux .",
     "phytosociology": "Artemisietea vulgaris / Stellarietea mediae selon contexte",
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, murs",
-    "photo": ""
+    "photo": "",
+    "special": "invasive"
   },
   {
     "id": 582,
@@ -11966,7 +12581,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, murs",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 583,
@@ -11986,7 +12602,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, murs",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 584,
@@ -11996,8 +12613,8 @@ const PLANTS = [
     "habitat": "Fossés, prairies humides",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Ombelles, feuilles souvent divisées, tiges cannelées ; prudence espèces toxiques.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -12007,7 +12624,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Fossés, prairies humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 585,
@@ -12017,8 +12635,8 @@ const PLANTS = [
     "habitat": "Fossés, prairies humides",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Ombelles, feuilles souvent divisées, tiges cannelées ; prudence espèces toxiques.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -12028,7 +12646,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Fossés, prairies humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 586,
@@ -12038,8 +12657,8 @@ const PLANTS = [
     "habitat": "Fossés, prairies humides",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Ombelles, feuilles souvent divisées, tiges cannelées ; prudence espèces toxiques.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -12049,7 +12668,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Fossés, prairies humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 587,
@@ -12069,7 +12689,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Zones humides, fossés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 588,
@@ -12089,7 +12710,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Zones humides, fossés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 589,
@@ -12110,7 +12732,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 590,
@@ -12131,7 +12754,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 591,
@@ -12152,7 +12776,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 592,
@@ -12173,7 +12798,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 593,
@@ -12194,7 +12820,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois, prairies maigres",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 594,
@@ -12204,8 +12831,8 @@ const PLANTS = [
     "habitat": "Prairies humides",
     "level": "À classer",
     "tags": [
-      "humide",
-      "prairie"
+      "prairie",
+      "humide"
     ],
     "criteria": "Ombelles, feuilles souvent divisées, tiges cannelées ; prudence espèces toxiques.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -12215,7 +12842,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 595,
@@ -12225,8 +12853,8 @@ const PLANTS = [
     "habitat": "Prairies humides, landes",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
+      "humide",
       "lande"
     ],
     "criteria": "Ombelles, feuilles souvent divisées, tiges cannelées ; prudence espèces toxiques.",
@@ -12237,7 +12865,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, landes",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 596,
@@ -12258,7 +12887,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, prairies fraîches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 597,
@@ -12278,7 +12908,8 @@ const PLANTS = [
     "eunis": "I1 cultures et jardins maraîchers",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Cultures, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 598,
@@ -12288,9 +12919,9 @@ const PLANTS = [
     "habitat": "Bois frais, prairies humides, cultures",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
       "bois",
+      "humide",
       "friche"
     ],
     "criteria": "4 pétales en croix, 6 étamines souvent, fruits en siliques ou silicules.",
@@ -12301,7 +12932,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois frais, prairies humides, cultures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 599,
@@ -12311,9 +12943,9 @@ const PLANTS = [
     "habitat": "Bois frais, prairies humides, cultures",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
       "bois",
+      "humide",
       "friche"
     ],
     "criteria": "4 pétales en croix, 6 étamines souvent, fruits en siliques ou silicules.",
@@ -12324,7 +12956,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois frais, prairies humides, cultures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 600,
@@ -12334,9 +12967,9 @@ const PLANTS = [
     "habitat": "Bois frais, prairies humides, cultures",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
       "bois",
+      "humide",
       "friche"
     ],
     "criteria": "4 pétales en croix, 6 étamines souvent, fruits en siliques ou silicules.",
@@ -12347,7 +12980,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois frais, prairies humides, cultures",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 601,
@@ -12367,7 +13001,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Berges, fossés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 602,
@@ -12387,7 +13022,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Berges, fossés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 603,
@@ -12408,7 +13044,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Fossés, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 604,
@@ -12429,7 +13066,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Fossés, friches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 605,
@@ -12449,7 +13087,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, chemins",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 606,
@@ -12469,7 +13108,8 @@ const PLANTS = [
     "eunis": "E5 ourlets/friches herbacées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Friches, chemins",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 607,
@@ -12489,7 +13129,8 @@ const PLANTS = [
     "eunis": "E1 pelouses sèches",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Murs, sables, pelouses",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 608,
@@ -12509,7 +13150,8 @@ const PLANTS = [
     "eunis": "E1 pelouses sèches",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, chemins",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 609,
@@ -12529,7 +13171,8 @@ const PLANTS = [
     "eunis": "E1 pelouses sèches",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Murs, pelouses",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 610,
@@ -12549,7 +13192,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Berges, fossés, marais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 611,
@@ -12569,7 +13213,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Berges, fossés, marais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 612,
@@ -12589,7 +13234,8 @@ const PLANTS = [
     "eunis": "C1 eaux stagnantes",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Mares, fossés, eaux lentes",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 613,
@@ -12609,7 +13255,8 @@ const PLANTS = [
     "eunis": "C1 eaux stagnantes",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Mares, fossés, eaux lentes",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 614,
@@ -12629,7 +13276,8 @@ const PLANTS = [
     "eunis": "C1 eaux stagnantes",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Mares, fossés, eaux lentes",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 615,
@@ -12649,7 +13297,8 @@ const PLANTS = [
     "eunis": "C1 eaux stagnantes",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Mares, étangs, rivières lentes",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 616,
@@ -12669,7 +13318,8 @@ const PLANTS = [
     "eunis": "C1 eaux stagnantes",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Mares, étangs, rivières lentes",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 617,
@@ -12689,7 +13339,8 @@ const PLANTS = [
     "eunis": "C1 eaux stagnantes",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Mares, étangs, rivières lentes",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 618,
@@ -12709,7 +13360,8 @@ const PLANTS = [
     "eunis": "C1 eaux stagnantes",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Mares, étangs, rivières lentes",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 619,
@@ -12729,7 +13381,8 @@ const PLANTS = [
     "eunis": "C1 eaux stagnantes",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Mares, étangs, rivières lentes",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 620,
@@ -12749,7 +13402,8 @@ const PLANTS = [
     "eunis": "C1 eaux stagnantes",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Mares, eaux calmes",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 621,
@@ -12769,7 +13423,8 @@ const PLANTS = [
     "eunis": "C1 eaux stagnantes",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Mares, eaux calmes",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 622,
@@ -12789,7 +13444,8 @@ const PLANTS = [
     "eunis": "C1 eaux stagnantes",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Fossés, mares",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 623,
@@ -12809,7 +13465,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Mares, vases, marais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 624,
@@ -12829,7 +13486,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Mares, vases, marais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 625,
@@ -12849,7 +13507,8 @@ const PLANTS = [
     "eunis": "C3 / D5 selon végétation",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Mares, vases, marais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 626,
@@ -12869,7 +13528,8 @@ const PLANTS = [
     "eunis": "À préciser selon habitat observé",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Étangs, roselières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 627,
@@ -12889,7 +13549,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Vases, zones humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 628,
@@ -12909,7 +13570,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Vases, zones humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 629,
@@ -12929,7 +13591,8 @@ const PLANTS = [
     "eunis": "À préciser selon habitat observé",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Berges, vases",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 630,
@@ -12949,7 +13612,8 @@ const PLANTS = [
     "eunis": "À préciser selon habitat observé",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Berges, vases",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 631,
@@ -12969,7 +13633,8 @@ const PLANTS = [
     "eunis": "À préciser selon habitat observé",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Berges, vases",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 632,
@@ -12979,8 +13644,8 @@ const PLANTS = [
     "habitat": "Landes humides ou sèches",
     "level": "À classer",
     "tags": [
-      "humide",
-      "lande"
+      "lande",
+      "humide"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -12990,7 +13655,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Landes humides ou sèches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 633,
@@ -13000,8 +13666,8 @@ const PLANTS = [
     "habitat": "Landes humides ou sèches",
     "level": "À classer",
     "tags": [
-      "humide",
-      "lande"
+      "lande",
+      "humide"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -13011,7 +13677,8 @@ const PLANTS = [
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Landes humides ou sèches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 634,
@@ -13031,7 +13698,8 @@ const PLANTS = [
     "eunis": "F4 landes tempérées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Landes acides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 635,
@@ -13052,7 +13720,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Landes, haies acides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 636,
@@ -13073,7 +13742,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Landes, haies acides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 637,
@@ -13093,7 +13763,8 @@ const PLANTS = [
     "eunis": "F4 landes tempérées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Landes, talus",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 638,
@@ -13113,7 +13784,8 @@ const PLANTS = [
     "eunis": "F4 landes tempérées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Landes, pelouses acides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 639,
@@ -13133,7 +13805,8 @@ const PLANTS = [
     "eunis": "F4 landes tempérées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Landes, pelouses acides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 640,
@@ -13153,7 +13826,8 @@ const PLANTS = [
     "eunis": "F4 landes tempérées",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Landes, pelouses acides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 641,
@@ -13174,7 +13848,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, bois",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 642,
@@ -13195,7 +13870,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, bois",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 643,
@@ -13216,7 +13892,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 644,
@@ -13226,8 +13903,8 @@ const PLANTS = [
     "habitat": "Bords de cours d'eau, bois humides",
     "level": "À classer",
     "tags": [
-      "humide",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -13237,7 +13914,8 @@ const PLANTS = [
     "eunis": "C1/C2 milieux aquatiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bords de cours d'eau, bois humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 645,
@@ -13247,8 +13925,8 @@ const PLANTS = [
     "habitat": "Bords de cours d'eau, bois humides",
     "level": "À classer",
     "tags": [
-      "humide",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -13258,7 +13936,8 @@ const PLANTS = [
     "eunis": "C1/C2 milieux aquatiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bords de cours d'eau, bois humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 646,
@@ -13268,8 +13947,8 @@ const PLANTS = [
     "habitat": "Bords de cours d'eau, bois humides",
     "level": "À classer",
     "tags": [
-      "humide",
-      "bois"
+      "bois",
+      "humide"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -13279,7 +13958,8 @@ const PLANTS = [
     "eunis": "C1/C2 milieux aquatiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bords de cours d'eau, bois humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 647,
@@ -13289,8 +13969,8 @@ const PLANTS = [
     "habitat": "Landes, bois acides",
     "level": "À classer",
     "tags": [
-      "bois",
-      "lande"
+      "lande",
+      "bois"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -13300,7 +13980,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Landes, bois acides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 648,
@@ -13321,7 +14002,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois, haies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 649,
@@ -13342,7 +14024,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois, haies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 650,
@@ -13363,7 +14046,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois, haies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 651,
@@ -13384,7 +14068,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, bois",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 652,
@@ -13405,7 +14090,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, bois",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 653,
@@ -13425,7 +14111,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 654,
@@ -13445,7 +14132,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 655,
@@ -13465,7 +14153,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, vergers",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 656,
@@ -13485,7 +14174,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 657,
@@ -13505,7 +14195,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 658,
@@ -13526,7 +14217,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 659,
@@ -13547,7 +14239,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, friches riches",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 660,
@@ -13568,7 +14261,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, bois",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 661,
@@ -13589,7 +14283,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois, haies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 662,
@@ -13609,7 +14304,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 663,
@@ -13629,7 +14325,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 664,
@@ -13643,13 +14340,14 @@ const PLANTS = [
     ],
     "criteria": "Fleurs zygomorphes avec labelle ; feuilles souvent entières, tubercules/rhizomes.",
     "confusions": "À préciser avec la flore de terrain.",
-    "status": "À vérifier selon listes régionales",
+    "status": "À vérifier : groupe pouvant contenir des espèces protégées/patrimoniales",
     "short": "Fleurs zygomorphes avec labelle .",
     "phytosociology": "Molinio-Arrhenatheretea",
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses",
-    "photo": ""
+    "photo": "",
+    "special": "protected"
   },
   {
     "id": 665,
@@ -13663,13 +14361,14 @@ const PLANTS = [
     ],
     "criteria": "Fleurs zygomorphes avec labelle ; feuilles souvent entières, tubercules/rhizomes.",
     "confusions": "À préciser avec la flore de terrain.",
-    "status": "À vérifier selon listes régionales",
+    "status": "À vérifier : groupe pouvant contenir des espèces protégées/patrimoniales",
     "short": "Fleurs zygomorphes avec labelle .",
     "phytosociology": "Molinio-Arrhenatheretea",
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses",
-    "photo": ""
+    "photo": "",
+    "special": "protected"
   },
   {
     "id": 666,
@@ -13683,13 +14382,14 @@ const PLANTS = [
     ],
     "criteria": "Fleurs zygomorphes avec labelle ; feuilles souvent entières, tubercules/rhizomes.",
     "confusions": "À préciser avec la flore de terrain.",
-    "status": "À vérifier selon listes régionales",
+    "status": "À vérifier : groupe pouvant contenir des espèces protégées/patrimoniales",
     "short": "Fleurs zygomorphes avec labelle .",
     "phytosociology": "Molinio-Arrhenatheretea",
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies, pelouses",
-    "photo": ""
+    "photo": "",
+    "special": "protected"
   },
   {
     "id": 667,
@@ -13703,13 +14403,14 @@ const PLANTS = [
     ],
     "criteria": "Fleurs zygomorphes avec labelle ; feuilles souvent entières, tubercules/rhizomes.",
     "confusions": "À préciser avec la flore de terrain.",
-    "status": "À vérifier selon listes régionales",
+    "status": "À vérifier : groupe pouvant contenir des espèces protégées/patrimoniales",
     "short": "Fleurs zygomorphes avec labelle .",
     "phytosociology": "Molinio-Arrhenatheretea",
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies maigres",
-    "photo": ""
+    "photo": "",
+    "special": "protected"
   },
   {
     "id": 668,
@@ -13723,13 +14424,14 @@ const PLANTS = [
     ],
     "criteria": "Fleurs zygomorphes avec labelle ; feuilles souvent entières, tubercules/rhizomes.",
     "confusions": "À préciser avec la flore de terrain.",
-    "status": "À vérifier selon listes régionales",
+    "status": "À vérifier : groupe pouvant contenir des espèces protégées/patrimoniales",
     "short": "Fleurs zygomorphes avec labelle .",
     "phytosociology": "Molinio-Arrhenatheretea",
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies maigres",
-    "photo": ""
+    "photo": "",
+    "special": "protected"
   },
   {
     "id": 669,
@@ -13739,19 +14441,20 @@ const PLANTS = [
     "habitat": "Prairies humides, landes",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
+      "humide",
       "lande"
     ],
     "criteria": "Fleurs zygomorphes avec labelle ; feuilles souvent entières, tubercules/rhizomes.",
     "confusions": "À préciser avec la flore de terrain.",
-    "status": "À vérifier selon listes régionales",
+    "status": "À vérifier : groupe pouvant contenir des espèces protégées/patrimoniales",
     "short": "Fleurs zygomorphes avec labelle .",
     "phytosociology": "Molinio-Arrhenatheretea / Filipendulo-Convolvuletea selon contexte",
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, landes",
-    "photo": ""
+    "photo": "",
+    "special": "protected"
   },
   {
     "id": 670,
@@ -13761,19 +14464,20 @@ const PLANTS = [
     "habitat": "Prairies humides, landes",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
+      "humide",
       "lande"
     ],
     "criteria": "Fleurs zygomorphes avec labelle ; feuilles souvent entières, tubercules/rhizomes.",
     "confusions": "À préciser avec la flore de terrain.",
-    "status": "À vérifier selon listes régionales",
+    "status": "À vérifier : groupe pouvant contenir des espèces protégées/patrimoniales",
     "short": "Fleurs zygomorphes avec labelle .",
     "phytosociology": "Molinio-Arrhenatheretea / Filipendulo-Convolvuletea selon contexte",
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, landes",
-    "photo": ""
+    "photo": "",
+    "special": "protected"
   },
   {
     "id": 671,
@@ -13783,19 +14487,20 @@ const PLANTS = [
     "habitat": "Prairies humides, landes",
     "level": "À classer",
     "tags": [
-      "humide",
       "prairie",
+      "humide",
       "lande"
     ],
     "criteria": "Fleurs zygomorphes avec labelle ; feuilles souvent entières, tubercules/rhizomes.",
     "confusions": "À préciser avec la flore de terrain.",
-    "status": "À vérifier selon listes régionales",
+    "status": "À vérifier : groupe pouvant contenir des espèces protégées/patrimoniales",
     "short": "Fleurs zygomorphes avec labelle .",
     "phytosociology": "Molinio-Arrhenatheretea / Filipendulo-Convolvuletea selon contexte",
     "eunis": "E3 prairies humides / D5 roselières-cariçaies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Prairies humides, landes",
-    "photo": ""
+    "photo": "",
+    "special": "protected"
   },
   {
     "id": 672,
@@ -13809,13 +14514,14 @@ const PLANTS = [
     ],
     "criteria": "Fleurs zygomorphes avec labelle ; feuilles souvent entières, tubercules/rhizomes.",
     "confusions": "À préciser avec la flore de terrain.",
-    "status": "À vérifier selon listes régionales",
+    "status": "À vérifier : groupe pouvant contenir des espèces protégées/patrimoniales",
     "short": "Fleurs zygomorphes avec labelle .",
     "phytosociology": "Molinio-Arrhenatheretea",
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses calcicoles, prairies maigres",
-    "photo": ""
+    "photo": "",
+    "special": "protected"
   },
   {
     "id": 673,
@@ -13829,13 +14535,14 @@ const PLANTS = [
     ],
     "criteria": "Fleurs zygomorphes avec labelle ; feuilles souvent entières, tubercules/rhizomes.",
     "confusions": "À préciser avec la flore de terrain.",
-    "status": "À vérifier selon listes régionales",
+    "status": "À vérifier : groupe pouvant contenir des espèces protégées/patrimoniales",
     "short": "Fleurs zygomorphes avec labelle .",
     "phytosociology": "Molinio-Arrhenatheretea",
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses calcicoles, prairies maigres",
-    "photo": ""
+    "photo": "",
+    "special": "protected"
   },
   {
     "id": 674,
@@ -13849,13 +14556,14 @@ const PLANTS = [
     ],
     "criteria": "Fleurs zygomorphes avec labelle ; feuilles souvent entières, tubercules/rhizomes.",
     "confusions": "À préciser avec la flore de terrain.",
-    "status": "À vérifier selon listes régionales",
+    "status": "À vérifier : groupe pouvant contenir des espèces protégées/patrimoniales",
     "short": "Fleurs zygomorphes avec labelle .",
     "phytosociology": "Molinio-Arrhenatheretea",
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses calcicoles, prairies maigres",
-    "photo": ""
+    "photo": "",
+    "special": "protected"
   },
   {
     "id": 675,
@@ -13869,13 +14577,14 @@ const PLANTS = [
     ],
     "criteria": "Fleurs zygomorphes avec labelle ; feuilles souvent entières, tubercules/rhizomes.",
     "confusions": "À préciser avec la flore de terrain.",
-    "status": "À vérifier selon listes régionales",
+    "status": "À vérifier : groupe pouvant contenir des espèces protégées/patrimoniales",
     "short": "Fleurs zygomorphes avec labelle .",
     "phytosociology": "Querco-Fagetea",
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois, lisières",
-    "photo": ""
+    "photo": "",
+    "special": "protected"
   },
   {
     "id": 676,
@@ -13889,13 +14598,14 @@ const PLANTS = [
     ],
     "criteria": "Fleurs zygomorphes avec labelle ; feuilles souvent entières, tubercules/rhizomes.",
     "confusions": "À préciser avec la flore de terrain.",
-    "status": "À vérifier selon listes régionales",
+    "status": "À vérifier : groupe pouvant contenir des espèces protégées/patrimoniales",
     "short": "Fleurs zygomorphes avec labelle .",
     "phytosociology": "Querco-Fagetea",
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois, lisières",
-    "photo": ""
+    "photo": "",
+    "special": "protected"
   },
   {
     "id": 677,
@@ -13915,7 +14625,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois calcicoles",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 678,
@@ -13935,7 +14646,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois calcicoles",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 679,
@@ -13955,7 +14667,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Murs, rochers, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 680,
@@ -13975,7 +14688,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Murs, rochers, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 681,
@@ -13995,7 +14709,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Murs, rochers, bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 682,
@@ -14015,7 +14730,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 683,
@@ -14035,7 +14751,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 684,
@@ -14055,7 +14772,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois frais",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 685,
@@ -14075,7 +14793,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois frais, talus",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 686,
@@ -14095,7 +14814,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Bois frais, talus",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 687,
@@ -14105,8 +14825,8 @@ const PLANTS = [
     "habitat": "Landes, bois acides",
     "level": "À classer",
     "tags": [
-      "bois",
-      "lande"
+      "lande",
+      "bois"
     ],
     "criteria": "Observer le port, les feuilles, la fleur, le fruit et le milieu ; confirmer avec une flore.",
     "confusions": "À préciser avec la flore de terrain.",
@@ -14116,7 +14836,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Landes, bois acides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 688,
@@ -14136,7 +14857,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Murs, talus, bois",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 689,
@@ -14157,7 +14879,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Fossés, cultures, zones humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 690,
@@ -14178,7 +14901,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Fossés, cultures, zones humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 691,
@@ -14199,7 +14923,8 @@ const PLANTS = [
     "eunis": "C3 eaux de surface / E3 prairies humides",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Fossés, cultures, zones humides",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 692,
@@ -14219,7 +14944,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, bois clairs",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 693,
@@ -14239,7 +14965,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, prairies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 694,
@@ -14259,7 +14986,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, fourrés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 695,
@@ -14279,7 +15007,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 696,
@@ -14299,7 +15028,8 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, bois clairs",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 697,
@@ -14319,7 +15049,8 @@ const PLANTS = [
     "eunis": "E2 prairies mésiques",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, prairies",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 698,
@@ -14339,7 +15070,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, fourrés",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 699,
@@ -14359,7 +15091,8 @@ const PLANTS = [
     "eunis": "FA haies",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Haies, lisières",
-    "photo": ""
+    "photo": "",
+    "special": ""
   },
   {
     "id": 700,
@@ -14379,6 +15112,6323 @@ const PLANTS = [
     "eunis": "G1 forêts feuillues",
     "phenology": "À compléter sur le terrain",
     "indicator": "Milieu indicatif : Pelouses, bois clairs",
-    "photo": ""
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 701,
+    "fr": "Carex pulicaris",
+    "latin": "Carex pulicaris",
+    "family": "Cyperaceae",
+    "habitat": "Prairies humides, marais, bois frais",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 702,
+    "fr": "Carex dioica",
+    "latin": "Carex dioica",
+    "family": "Cyperaceae",
+    "habitat": "Prairies humides, marais, bois frais",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 703,
+    "fr": "Carex depauperata",
+    "latin": "Carex depauperata",
+    "family": "Cyperaceae",
+    "habitat": "Prairies humides, marais, bois frais",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 704,
+    "fr": "Carex halleriana",
+    "latin": "Carex halleriana",
+    "family": "Cyperaceae",
+    "habitat": "Prairies humides, marais, bois frais",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 705,
+    "fr": "Carex digitata",
+    "latin": "Carex digitata",
+    "family": "Cyperaceae",
+    "habitat": "Prairies humides, marais, bois frais",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 706,
+    "fr": "Carex humilis",
+    "latin": "Carex humilis",
+    "family": "Cyperaceae",
+    "habitat": "Prairies humides, marais, bois frais",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 707,
+    "fr": "Carex montana",
+    "latin": "Carex montana",
+    "family": "Cyperaceae",
+    "habitat": "Prairies humides, marais, bois frais",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 708,
+    "fr": "Carex punctata",
+    "latin": "Carex punctata",
+    "family": "Cyperaceae",
+    "habitat": "Prairies humides, marais, bois frais",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 709,
+    "fr": "Carex mairii",
+    "latin": "Carex mairii",
+    "family": "Cyperaceae",
+    "habitat": "Prairies humides, marais, bois frais",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 710,
+    "fr": "Carex distans",
+    "latin": "Carex distans",
+    "family": "Cyperaceae",
+    "habitat": "Prairies humides, marais, bois frais",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 711,
+    "fr": "Carex serotina",
+    "latin": "Carex serotina",
+    "family": "Cyperaceae",
+    "habitat": "Prairies humides, marais, bois frais",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 712,
+    "fr": "Carex flava",
+    "latin": "Carex flava",
+    "family": "Cyperaceae",
+    "habitat": "Prairies humides, marais, bois frais",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 713,
+    "fr": "Carex lepidocarpa",
+    "latin": "Carex lepidocarpa",
+    "family": "Cyperaceae",
+    "habitat": "Prairies humides, marais, bois frais",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 714,
+    "fr": "Carex curta",
+    "latin": "Carex curta",
+    "family": "Cyperaceae",
+    "habitat": "Prairies humides, marais, bois frais",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 715,
+    "fr": "Carex canescens",
+    "latin": "Carex canescens",
+    "family": "Cyperaceae",
+    "habitat": "Prairies humides, marais, bois frais",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 716,
+    "fr": "Carex elongata",
+    "latin": "Carex elongata",
+    "family": "Cyperaceae",
+    "habitat": "Prairies humides, marais, bois frais",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies humides, marais, bois frais",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 717,
+    "fr": "Juncus fontanesii",
+    "latin": "Juncus fontanesii",
+    "family": "Juncaceae",
+    "habitat": "Prairies humides, fossés, vases exondées",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Joncs/luzules ; vérifier tige, moelle, feuilles cloisonnées, tépales et capsules.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Joncs/luzules .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies humides, fossés, vases exondées",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 718,
+    "fr": "Juncus maritimus",
+    "latin": "Juncus maritimus",
+    "family": "Juncaceae",
+    "habitat": "Prairies humides, fossés, vases exondées",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Joncs/luzules ; vérifier tige, moelle, feuilles cloisonnées, tépales et capsules.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Joncs/luzules .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies humides, fossés, vases exondées",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 719,
+    "fr": "Juncus subulatus",
+    "latin": "Juncus subulatus",
+    "family": "Juncaceae",
+    "habitat": "Prairies humides, fossés, vases exondées",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Joncs/luzules ; vérifier tige, moelle, feuilles cloisonnées, tépales et capsules.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Joncs/luzules .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies humides, fossés, vases exondées",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 720,
+    "fr": "Juncus anceps",
+    "latin": "Juncus anceps",
+    "family": "Juncaceae",
+    "habitat": "Prairies humides, fossés, vases exondées",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Joncs/luzules ; vérifier tige, moelle, feuilles cloisonnées, tépales et capsules.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Joncs/luzules .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies humides, fossés, vases exondées",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 721,
+    "fr": "Juncus acutus",
+    "latin": "Juncus acutus",
+    "family": "Juncaceae",
+    "habitat": "Prairies humides, fossés, vases exondées",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Joncs/luzules ; vérifier tige, moelle, feuilles cloisonnées, tépales et capsules.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Joncs/luzules .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies humides, fossés, vases exondées",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 722,
+    "fr": "Juncus alpinoarticulatus",
+    "latin": "Juncus alpinoarticulatus",
+    "family": "Juncaceae",
+    "habitat": "Prairies humides, fossés, vases exondées",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Joncs/luzules ; vérifier tige, moelle, feuilles cloisonnées, tépales et capsules.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Joncs/luzules .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies humides, fossés, vases exondées",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 723,
+    "fr": "Juncus obtusiflorus",
+    "latin": "Juncus obtusiflorus",
+    "family": "Juncaceae",
+    "habitat": "Prairies humides, fossés, vases exondées",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Joncs/luzules ; vérifier tige, moelle, feuilles cloisonnées, tépales et capsules.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Joncs/luzules .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies humides, fossés, vases exondées",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 724,
+    "fr": "Juncus tenageia",
+    "latin": "Juncus tenageia",
+    "family": "Juncaceae",
+    "habitat": "Prairies humides, fossés, vases exondées",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Joncs/luzules ; vérifier tige, moelle, feuilles cloisonnées, tépales et capsules.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Joncs/luzules .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies humides, fossés, vases exondées",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 725,
+    "fr": "Juncus ambiguus",
+    "latin": "Juncus ambiguus",
+    "family": "Juncaceae",
+    "habitat": "Prairies humides, fossés, vases exondées",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Joncs/luzules ; vérifier tige, moelle, feuilles cloisonnées, tépales et capsules.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Joncs/luzules .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies humides, fossés, vases exondées",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 726,
+    "fr": "Luzula forsteri",
+    "latin": "Luzula forsteri",
+    "family": "Juncaceae",
+    "habitat": "Bois, pelouses, landes",
+    "level": "À classer",
+    "tags": [],
+    "criteria": "Joncs/luzules ; vérifier tige, moelle, feuilles cloisonnées, tépales et capsules.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Joncs/luzules .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Bois, pelouses, landes",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 727,
+    "fr": "Luzula pilosa",
+    "latin": "Luzula pilosa",
+    "family": "Juncaceae",
+    "habitat": "Bois, pelouses, landes",
+    "level": "À classer",
+    "tags": [],
+    "criteria": "Joncs/luzules ; vérifier tige, moelle, feuilles cloisonnées, tépales et capsules.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Joncs/luzules .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Bois, pelouses, landes",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 728,
+    "fr": "Luzula multiflora",
+    "latin": "Luzula multiflora",
+    "family": "Juncaceae",
+    "habitat": "Bois, pelouses, landes",
+    "level": "À classer",
+    "tags": [],
+    "criteria": "Joncs/luzules ; vérifier tige, moelle, feuilles cloisonnées, tépales et capsules.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Joncs/luzules .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Bois, pelouses, landes",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 729,
+    "fr": "Luzula congesta",
+    "latin": "Luzula congesta",
+    "family": "Juncaceae",
+    "habitat": "Bois, pelouses, landes",
+    "level": "À classer",
+    "tags": [],
+    "criteria": "Joncs/luzules ; vérifier tige, moelle, feuilles cloisonnées, tépales et capsules.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Joncs/luzules .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Bois, pelouses, landes",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 730,
+    "fr": "Bromus molliformis",
+    "latin": "Bromus molliformis",
+    "family": "Poaceae",
+    "habitat": "Prairies, friches, cultures",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches, cultures",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 731,
+    "fr": "Bromus madritensis",
+    "latin": "Bromus madritensis",
+    "family": "Poaceae",
+    "habitat": "Prairies, friches, cultures",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches, cultures",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 732,
+    "fr": "Bromus rigidus",
+    "latin": "Bromus rigidus",
+    "family": "Poaceae",
+    "habitat": "Prairies, friches, cultures",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches, cultures",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 733,
+    "fr": "Festuca longifolia",
+    "latin": "Festuca longifolia",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses, bois",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses, bois",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 734,
+    "fr": "Festuca guestfalica",
+    "latin": "Festuca guestfalica",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses, bois",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses, bois",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 735,
+    "fr": "Festuca marginata",
+    "latin": "Festuca marginata",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses, bois",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses, bois",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 736,
+    "fr": "Poa infirma",
+    "latin": "Poa infirma",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses, bois",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses, bois",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 737,
+    "fr": "Poa supina",
+    "latin": "Poa supina",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses, bois",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses, bois",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 738,
+    "fr": "Trifolium incarnatum",
+    "latin": "Trifolium incarnatum",
+    "family": "Fabaceae",
+    "habitat": "Prairies, pelouses, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 739,
+    "fr": "Trifolium alexandrinum",
+    "latin": "Trifolium alexandrinum",
+    "family": "Fabaceae",
+    "habitat": "Prairies, pelouses, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 740,
+    "fr": "Trifolium maritimum",
+    "latin": "Trifolium maritimum",
+    "family": "Fabaceae",
+    "habitat": "Prairies, pelouses, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 741,
+    "fr": "Trifolium patens",
+    "latin": "Trifolium patens",
+    "family": "Fabaceae",
+    "habitat": "Prairies, pelouses, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 742,
+    "fr": "Trifolium scabrum",
+    "latin": "Trifolium scabrum",
+    "family": "Fabaceae",
+    "habitat": "Prairies, pelouses, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 743,
+    "fr": "Trifolium strictum",
+    "latin": "Trifolium strictum",
+    "family": "Fabaceae",
+    "habitat": "Prairies, pelouses, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 744,
+    "fr": "Trifolium ornithopodioides",
+    "latin": "Trifolium ornithopodioides",
+    "family": "Fabaceae",
+    "habitat": "Prairies, pelouses, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 745,
+    "fr": "Medicago rigidula",
+    "latin": "Medicago rigidula",
+    "family": "Fabaceae",
+    "habitat": "Pelouses, friches, prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Pelouses, friches, prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 746,
+    "fr": "Medicago truncatula",
+    "latin": "Medicago truncatula",
+    "family": "Fabaceae",
+    "habitat": "Pelouses, friches, prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Pelouses, friches, prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 747,
+    "fr": "Medicago littoralis",
+    "latin": "Medicago littoralis",
+    "family": "Fabaceae",
+    "habitat": "Pelouses, friches, prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Pelouses, friches, prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 748,
+    "fr": "Vicia lathyroides",
+    "latin": "Vicia lathyroides",
+    "family": "Fabaceae",
+    "habitat": "Prairies, haies, cultures",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "haie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, haies, cultures",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 749,
+    "fr": "Vicia loiseleurii",
+    "latin": "Vicia loiseleurii",
+    "family": "Fabaceae",
+    "habitat": "Prairies, haies, cultures",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "haie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, haies, cultures",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 750,
+    "fr": "Vicia parviflora",
+    "latin": "Vicia parviflora",
+    "family": "Fabaceae",
+    "habitat": "Prairies, haies, cultures",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "haie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, haies, cultures",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 751,
+    "fr": "Geranium purpureum",
+    "latin": "Geranium purpureum",
+    "family": "Geraniaceae",
+    "habitat": "Pelouses, haies, friches",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Observer port, feuilles, tige, fleurs, fruits et milieu ; confirmer avec une flore.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Observer port, feuilles, tige, fleurs, fruits et milieu .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Pelouses, haies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 752,
+    "fr": "Veronica acinos",
+    "latin": "Veronica acinos",
+    "family": "Plantaginaceae",
+    "habitat": "Cultures, prairies, milieux humides",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Observer port, feuilles, tige, fleurs, fruits et milieu ; confirmer avec une flore.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Observer port, feuilles, tige, fleurs, fruits et milieu .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Cultures, prairies, milieux humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 753,
+    "fr": "Veronica triphyllos",
+    "latin": "Veronica triphyllos",
+    "family": "Plantaginaceae",
+    "habitat": "Cultures, prairies, milieux humides",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Observer port, feuilles, tige, fleurs, fruits et milieu ; confirmer avec une flore.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Observer port, feuilles, tige, fleurs, fruits et milieu .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Cultures, prairies, milieux humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 754,
+    "fr": "Veronica praecox",
+    "latin": "Veronica praecox",
+    "family": "Plantaginaceae",
+    "habitat": "Cultures, prairies, milieux humides",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Observer port, feuilles, tige, fleurs, fruits et milieu ; confirmer avec une flore.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Observer port, feuilles, tige, fleurs, fruits et milieu .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Cultures, prairies, milieux humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 755,
+    "fr": "Epilobium adnatum",
+    "latin": "Epilobium adnatum",
+    "family": "Onagraceae",
+    "habitat": "Zones humides, bois frais, friches",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Observer port, feuilles, tige, fleurs, fruits et milieu ; confirmer avec une flore.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Observer port, feuilles, tige, fleurs, fruits et milieu .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides, bois frais, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 756,
+    "fr": "Epilobium palustre",
+    "latin": "Epilobium palustre",
+    "family": "Onagraceae",
+    "habitat": "Zones humides, bois frais, friches",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Observer port, feuilles, tige, fleurs, fruits et milieu ; confirmer avec une flore.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Observer port, feuilles, tige, fleurs, fruits et milieu .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides, bois frais, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 757,
+    "fr": "Epilobium lanceolatum",
+    "latin": "Epilobium lanceolatum",
+    "family": "Onagraceae",
+    "habitat": "Zones humides, bois frais, friches",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Observer port, feuilles, tige, fleurs, fruits et milieu ; confirmer avec une flore.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Observer port, feuilles, tige, fleurs, fruits et milieu .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides, bois frais, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 758,
+    "fr": "Ophrys scolopax",
+    "latin": "Ophrys scolopax",
+    "family": "Orchidaceae",
+    "habitat": "Pelouses calcicoles, prairies maigres",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur avec labelle ; critères fins sur éperon, feuilles, inflorescence et milieu.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier : groupe pouvant contenir des espèces protégées/patrimoniales",
+    "short": "Fleur avec labelle .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Pelouses calcicoles, prairies maigres",
+    "photo": "",
+    "special": "protected"
+  },
+  {
+    "id": 759,
+    "fr": "Ophrys insectifera",
+    "latin": "Ophrys insectifera",
+    "family": "Orchidaceae",
+    "habitat": "Pelouses calcicoles, prairies maigres",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur avec labelle ; critères fins sur éperon, feuilles, inflorescence et milieu.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier : groupe pouvant contenir des espèces protégées/patrimoniales",
+    "short": "Fleur avec labelle .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Pelouses calcicoles, prairies maigres",
+    "photo": "",
+    "special": "protected"
+  },
+  {
+    "id": 760,
+    "fr": "Ophrys fuciflora",
+    "latin": "Ophrys fuciflora",
+    "family": "Orchidaceae",
+    "habitat": "Pelouses calcicoles, prairies maigres",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur avec labelle ; critères fins sur éperon, feuilles, inflorescence et milieu.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier : groupe pouvant contenir des espèces protégées/patrimoniales",
+    "short": "Fleur avec labelle .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Pelouses calcicoles, prairies maigres",
+    "photo": "",
+    "special": "protected"
+  },
+  {
+    "id": 761,
+    "fr": "Ophrys passionis",
+    "latin": "Ophrys passionis",
+    "family": "Orchidaceae",
+    "habitat": "Pelouses calcicoles, prairies maigres",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur avec labelle ; critères fins sur éperon, feuilles, inflorescence et milieu.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier : groupe pouvant contenir des espèces protégées/patrimoniales",
+    "short": "Fleur avec labelle .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Pelouses calcicoles, prairies maigres",
+    "photo": "",
+    "special": "protected"
+  },
+  {
+    "id": 762,
+    "fr": "Dactylorhiza elata",
+    "latin": "Dactylorhiza elata",
+    "family": "Orchidaceae",
+    "habitat": "Prairies humides, landes, suintements",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Fleur avec labelle ; critères fins sur éperon, feuilles, inflorescence et milieu.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier : groupe pouvant contenir des espèces protégées/patrimoniales",
+    "short": "Fleur avec labelle .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies humides, landes, suintements",
+    "photo": "",
+    "special": "protected"
+  },
+  {
+    "id": 763,
+    "fr": "Dactylorhiza majalis",
+    "latin": "Dactylorhiza majalis",
+    "family": "Orchidaceae",
+    "habitat": "Prairies humides, landes, suintements",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Fleur avec labelle ; critères fins sur éperon, feuilles, inflorescence et milieu.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier : groupe pouvant contenir des espèces protégées/patrimoniales",
+    "short": "Fleur avec labelle .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies humides, landes, suintements",
+    "photo": "",
+    "special": "protected"
+  },
+  {
+    "id": 764,
+    "fr": "Anacamptis coriophora",
+    "latin": "Anacamptis coriophora",
+    "family": "Orchidaceae",
+    "habitat": "Prairies maigres, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur avec labelle ; critères fins sur éperon, feuilles, inflorescence et milieu.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier : groupe pouvant contenir des espèces protégées/patrimoniales",
+    "short": "Fleur avec labelle .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies maigres, pelouses",
+    "photo": "",
+    "special": "protected"
+  },
+  {
+    "id": 765,
+    "fr": "Anacamptis palustris",
+    "latin": "Anacamptis palustris",
+    "family": "Orchidaceae",
+    "habitat": "Prairies maigres, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur avec labelle ; critères fins sur éperon, feuilles, inflorescence et milieu.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier : groupe pouvant contenir des espèces protégées/patrimoniales",
+    "short": "Fleur avec labelle .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies maigres, pelouses",
+    "photo": "",
+    "special": "protected"
+  },
+  {
+    "id": 766,
+    "fr": "Orobanche minor",
+    "latin": "Orobanche minor",
+    "family": "Orobanchaceae",
+    "habitat": "Pelouses, friches, sur plantes hôtes",
+    "level": "À classer",
+    "tags": [],
+    "criteria": "Observer port, feuilles, tige, fleurs, fruits et milieu ; confirmer avec une flore.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Observer port, feuilles, tige, fleurs, fruits et milieu .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Pelouses, friches, sur plantes hôtes",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 767,
+    "fr": "Orobanche hederae",
+    "latin": "Orobanche hederae",
+    "family": "Orobanchaceae",
+    "habitat": "Pelouses, friches, sur plantes hôtes",
+    "level": "À classer",
+    "tags": [],
+    "criteria": "Observer port, feuilles, tige, fleurs, fruits et milieu ; confirmer avec une flore.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Observer port, feuilles, tige, fleurs, fruits et milieu .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Pelouses, friches, sur plantes hôtes",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 768,
+    "fr": "Orobanche rapum-genistae",
+    "latin": "Orobanche rapum-genistae",
+    "family": "Orobanchaceae",
+    "habitat": "Pelouses, friches, sur plantes hôtes",
+    "level": "À classer",
+    "tags": [],
+    "criteria": "Observer port, feuilles, tige, fleurs, fruits et milieu ; confirmer avec une flore.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Observer port, feuilles, tige, fleurs, fruits et milieu .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Pelouses, friches, sur plantes hôtes",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 769,
+    "fr": "Orobanche amethystea",
+    "latin": "Orobanche amethystea",
+    "family": "Orobanchaceae",
+    "habitat": "Pelouses, friches, sur plantes hôtes",
+    "level": "À classer",
+    "tags": [],
+    "criteria": "Observer port, feuilles, tige, fleurs, fruits et milieu ; confirmer avec une flore.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Observer port, feuilles, tige, fleurs, fruits et milieu .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Pelouses, friches, sur plantes hôtes",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 770,
+    "fr": "Orobanche caryophyllacea",
+    "latin": "Orobanche caryophyllacea",
+    "family": "Orobanchaceae",
+    "habitat": "Pelouses, friches, sur plantes hôtes",
+    "level": "À classer",
+    "tags": [],
+    "criteria": "Observer port, feuilles, tige, fleurs, fruits et milieu ; confirmer avec une flore.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Observer port, feuilles, tige, fleurs, fruits et milieu .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Pelouses, friches, sur plantes hôtes",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 771,
+    "fr": "Orobanche gracilis",
+    "latin": "Orobanche gracilis",
+    "family": "Orobanchaceae",
+    "habitat": "Pelouses, friches, sur plantes hôtes",
+    "level": "À classer",
+    "tags": [],
+    "criteria": "Observer port, feuilles, tige, fleurs, fruits et milieu ; confirmer avec une flore.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Observer port, feuilles, tige, fleurs, fruits et milieu .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Pelouses, friches, sur plantes hôtes",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 772,
+    "fr": "Hieracium vulgatum",
+    "latin": "Hieracium vulgatum",
+    "family": "Asteraceae",
+    "habitat": "Pelouses, bois clairs, lisières",
+    "level": "À classer",
+    "tags": [],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Pelouses, bois clairs, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 773,
+    "fr": "Hieracium glaucinum",
+    "latin": "Hieracium glaucinum",
+    "family": "Asteraceae",
+    "habitat": "Pelouses, bois clairs, lisières",
+    "level": "À classer",
+    "tags": [],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Pelouses, bois clairs, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 774,
+    "fr": "Hieracium maculatum",
+    "latin": "Hieracium maculatum",
+    "family": "Asteraceae",
+    "habitat": "Pelouses, bois clairs, lisières",
+    "level": "À classer",
+    "tags": [],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Pelouses, bois clairs, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 775,
+    "fr": "Hieracium pilosella",
+    "latin": "Hieracium pilosella",
+    "family": "Asteraceae",
+    "habitat": "Pelouses, bois clairs, lisières",
+    "level": "À classer",
+    "tags": [],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Pelouses, bois clairs, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 776,
+    "fr": "Taraxacum sect. Ruderalia",
+    "latin": "Taraxacum sect. Ruderalia",
+    "family": "Asteraceae",
+    "habitat": "Pelouses, prairies, zones humides",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Pelouses, prairies, zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 777,
+    "fr": "Taraxacum sect. Erythrosperma",
+    "latin": "Taraxacum sect. Erythrosperma",
+    "family": "Asteraceae",
+    "habitat": "Pelouses, prairies, zones humides",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Pelouses, prairies, zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 778,
+    "fr": "Rubus radula",
+    "latin": "Rubus radula",
+    "family": "Rosaceae",
+    "habitat": "Haies, fourrés, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, fourrés, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 779,
+    "fr": "Rubus sprengelii",
+    "latin": "Rubus sprengelii",
+    "family": "Rosaceae",
+    "habitat": "Haies, fourrés, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, fourrés, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 780,
+    "fr": "Rubus questieri",
+    "latin": "Rubus questieri",
+    "family": "Rosaceae",
+    "habitat": "Haies, fourrés, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, fourrés, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 781,
+    "fr": "Rubus lejeunei",
+    "latin": "Rubus lejeunei",
+    "family": "Rosaceae",
+    "habitat": "Haies, fourrés, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, fourrés, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 782,
+    "fr": "Rosa stylosa",
+    "latin": "Rosa stylosa",
+    "family": "Rosaceae",
+    "habitat": "Haies, fourrés, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, fourrés, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 783,
+    "fr": "Rosa pimpinellifolia",
+    "latin": "Rosa pimpinellifolia",
+    "family": "Rosaceae",
+    "habitat": "Haies, fourrés, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, fourrés, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 784,
+    "fr": "Salix elaeagnos",
+    "latin": "Salix elaeagnos",
+    "family": "Salicaceae",
+    "habitat": "Berges, marais, haies humides",
+    "level": "À classer",
+    "tags": [
+      "haie",
+      "humide"
+    ],
+    "criteria": "Observer port, feuilles, tige, fleurs, fruits et milieu ; confirmer avec une flore.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Observer port, feuilles, tige, fleurs, fruits et milieu .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Berges, marais, haies humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 785,
+    "fr": "Potamogeton berchtoldii",
+    "latin": "Potamogeton berchtoldii",
+    "family": "Potamogetonaceae",
+    "habitat": "Mares, rivières lentes, étangs",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Observer port, feuilles, tige, fleurs, fruits et milieu ; confirmer avec une flore.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Observer port, feuilles, tige, fleurs, fruits et milieu .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Mares, rivières lentes, étangs",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 786,
+    "fr": "Potamogeton nodosus",
+    "latin": "Potamogeton nodosus",
+    "family": "Potamogetonaceae",
+    "habitat": "Mares, rivières lentes, étangs",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Observer port, feuilles, tige, fleurs, fruits et milieu ; confirmer avec une flore.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Observer port, feuilles, tige, fleurs, fruits et milieu .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Mares, rivières lentes, étangs",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 787,
+    "fr": "Potamogeton perfoliatus",
+    "latin": "Potamogeton perfoliatus",
+    "family": "Potamogetonaceae",
+    "habitat": "Mares, rivières lentes, étangs",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Observer port, feuilles, tige, fleurs, fruits et milieu ; confirmer avec une flore.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Observer port, feuilles, tige, fleurs, fruits et milieu .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Mares, rivières lentes, étangs",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 788,
+    "fr": "Potamogeton trichoides",
+    "latin": "Potamogeton trichoides",
+    "family": "Potamogetonaceae",
+    "habitat": "Mares, rivières lentes, étangs",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Observer port, feuilles, tige, fleurs, fruits et milieu ; confirmer avec une flore.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Observer port, feuilles, tige, fleurs, fruits et milieu .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Mares, rivières lentes, étangs",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 789,
+    "fr": "Ranunculus omiophyllus",
+    "latin": "Ranunculus omiophyllus",
+    "family": "Ranunculaceae",
+    "habitat": "Prairies, fossés, mares, bois frais",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Observer port, feuilles, tige, fleurs, fruits et milieu ; confirmer avec une flore.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Observer port, feuilles, tige, fleurs, fruits et milieu .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, fossés, mares, bois frais",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 790,
+    "fr": "Ranunculus tripartitus",
+    "latin": "Ranunculus tripartitus",
+    "family": "Ranunculaceae",
+    "habitat": "Prairies, fossés, mares, bois frais",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Observer port, feuilles, tige, fleurs, fruits et milieu ; confirmer avec une flore.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Observer port, feuilles, tige, fleurs, fruits et milieu .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, fossés, mares, bois frais",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 791,
+    "fr": "Ranunculus baudotii",
+    "latin": "Ranunculus baudotii",
+    "family": "Ranunculaceae",
+    "habitat": "Prairies, fossés, mares, bois frais",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Observer port, feuilles, tige, fleurs, fruits et milieu ; confirmer avec une flore.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Observer port, feuilles, tige, fleurs, fruits et milieu .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, fossés, mares, bois frais",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 792,
+    "fr": "Ranunculus circinatus",
+    "latin": "Ranunculus circinatus",
+    "family": "Ranunculaceae",
+    "habitat": "Prairies, fossés, mares, bois frais",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "humide"
+    ],
+    "criteria": "Observer port, feuilles, tige, fleurs, fruits et milieu ; confirmer avec une flore.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Observer port, feuilles, tige, fleurs, fruits et milieu .",
+    "phytosociology": "Querco-Fagetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, fossés, mares, bois frais",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 793,
+    "fr": "Potentilla supina",
+    "latin": "Potentilla supina",
+    "family": "Rosaceae",
+    "habitat": "Pelouses, prairies, chemins, landes",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Calluno-Ulicetea / Nardo-Callunetea",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Pelouses, prairies, chemins, landes",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 794,
+    "fr": "Galium debile",
+    "latin": "Galium debile",
+    "family": "Rubiaceae",
+    "habitat": "Prairies, haies, zones humides",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "haie",
+      "humide"
+    ],
+    "criteria": "Observer port, feuilles, tige, fleurs, fruits et milieu ; confirmer avec une flore.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Observer port, feuilles, tige, fleurs, fruits et milieu .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, haies, zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 795,
+    "fr": "Silene conica",
+    "latin": "Silene conica",
+    "family": "Caryophyllaceae",
+    "habitat": "Prairies, friches, lisières",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Observer port, feuilles, tige, fleurs, fruits et milieu ; confirmer avec une flore.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Observer port, feuilles, tige, fleurs, fruits et milieu .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 796,
+    "fr": "Silene noctiflora",
+    "latin": "Silene noctiflora",
+    "family": "Caryophyllaceae",
+    "habitat": "Prairies, friches, lisières",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Observer port, feuilles, tige, fleurs, fruits et milieu ; confirmer avec une flore.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Observer port, feuilles, tige, fleurs, fruits et milieu .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 797,
+    "fr": "Stellaria aquatica",
+    "latin": "Stellaria aquatica",
+    "family": "Caryophyllaceae",
+    "habitat": "Prairies, cultures, haies, bois",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "haie"
+    ],
+    "criteria": "Observer port, feuilles, tige, fleurs, fruits et milieu ; confirmer avec une flore.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Observer port, feuilles, tige, fleurs, fruits et milieu .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, cultures, haies, bois",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 798,
+    "fr": "Stellaria palustris",
+    "latin": "Stellaria palustris",
+    "family": "Caryophyllaceae",
+    "habitat": "Prairies, cultures, haies, bois",
+    "level": "À classer",
+    "tags": [
+      "prairie",
+      "haie"
+    ],
+    "criteria": "Observer port, feuilles, tige, fleurs, fruits et milieu ; confirmer avec une flore.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Observer port, feuilles, tige, fleurs, fruits et milieu .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, cultures, haies, bois",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 799,
+    "fr": "Cyperus flavescens",
+    "latin": "Cyperus flavescens",
+    "family": "Cyperaceae",
+    "habitat": "Berges, vases, fossés",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Berges, vases, fossés",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 800,
+    "fr": "Taxon régional à compléter 1",
+    "latin": "Taxon régional à compléter 1",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 801,
+    "fr": "Taxon régional à compléter 2",
+    "latin": "Taxon régional à compléter 2",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 802,
+    "fr": "Taxon régional à compléter 3",
+    "latin": "Taxon régional à compléter 3",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 803,
+    "fr": "Taxon régional à compléter 4",
+    "latin": "Taxon régional à compléter 4",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 804,
+    "fr": "Taxon régional à compléter 5",
+    "latin": "Taxon régional à compléter 5",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 805,
+    "fr": "Taxon régional à compléter 6",
+    "latin": "Taxon régional à compléter 6",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 806,
+    "fr": "Taxon régional à compléter 7",
+    "latin": "Taxon régional à compléter 7",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 807,
+    "fr": "Taxon régional à compléter 8",
+    "latin": "Taxon régional à compléter 8",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 808,
+    "fr": "Taxon régional à compléter 9",
+    "latin": "Taxon régional à compléter 9",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 809,
+    "fr": "Taxon régional à compléter 10",
+    "latin": "Taxon régional à compléter 10",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 810,
+    "fr": "Taxon régional à compléter 11",
+    "latin": "Taxon régional à compléter 11",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 811,
+    "fr": "Taxon régional à compléter 12",
+    "latin": "Taxon régional à compléter 12",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 812,
+    "fr": "Taxon régional à compléter 13",
+    "latin": "Taxon régional à compléter 13",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 813,
+    "fr": "Taxon régional à compléter 14",
+    "latin": "Taxon régional à compléter 14",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 814,
+    "fr": "Taxon régional à compléter 15",
+    "latin": "Taxon régional à compléter 15",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 815,
+    "fr": "Taxon régional à compléter 16",
+    "latin": "Taxon régional à compléter 16",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 816,
+    "fr": "Taxon régional à compléter 17",
+    "latin": "Taxon régional à compléter 17",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 817,
+    "fr": "Taxon régional à compléter 18",
+    "latin": "Taxon régional à compléter 18",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 818,
+    "fr": "Taxon régional à compléter 19",
+    "latin": "Taxon régional à compléter 19",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 819,
+    "fr": "Taxon régional à compléter 20",
+    "latin": "Taxon régional à compléter 20",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 820,
+    "fr": "Taxon régional à compléter 21",
+    "latin": "Taxon régional à compléter 21",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 821,
+    "fr": "Taxon régional à compléter 22",
+    "latin": "Taxon régional à compléter 22",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 822,
+    "fr": "Taxon régional à compléter 23",
+    "latin": "Taxon régional à compléter 23",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 823,
+    "fr": "Taxon régional à compléter 24",
+    "latin": "Taxon régional à compléter 24",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 824,
+    "fr": "Taxon régional à compléter 25",
+    "latin": "Taxon régional à compléter 25",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 825,
+    "fr": "Taxon régional à compléter 26",
+    "latin": "Taxon régional à compléter 26",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 826,
+    "fr": "Taxon régional à compléter 27",
+    "latin": "Taxon régional à compléter 27",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 827,
+    "fr": "Taxon régional à compléter 28",
+    "latin": "Taxon régional à compléter 28",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 828,
+    "fr": "Taxon régional à compléter 29",
+    "latin": "Taxon régional à compléter 29",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 829,
+    "fr": "Taxon régional à compléter 30",
+    "latin": "Taxon régional à compléter 30",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 830,
+    "fr": "Taxon régional à compléter 31",
+    "latin": "Taxon régional à compléter 31",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 831,
+    "fr": "Taxon régional à compléter 32",
+    "latin": "Taxon régional à compléter 32",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 832,
+    "fr": "Taxon régional à compléter 33",
+    "latin": "Taxon régional à compléter 33",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 833,
+    "fr": "Taxon régional à compléter 34",
+    "latin": "Taxon régional à compléter 34",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 834,
+    "fr": "Taxon régional à compléter 35",
+    "latin": "Taxon régional à compléter 35",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 835,
+    "fr": "Taxon régional à compléter 36",
+    "latin": "Taxon régional à compléter 36",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 836,
+    "fr": "Taxon régional à compléter 37",
+    "latin": "Taxon régional à compléter 37",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 837,
+    "fr": "Taxon régional à compléter 38",
+    "latin": "Taxon régional à compléter 38",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 838,
+    "fr": "Taxon régional à compléter 39",
+    "latin": "Taxon régional à compléter 39",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 839,
+    "fr": "Taxon régional à compléter 40",
+    "latin": "Taxon régional à compléter 40",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 840,
+    "fr": "Taxon régional à compléter 41",
+    "latin": "Taxon régional à compléter 41",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 841,
+    "fr": "Taxon régional à compléter 42",
+    "latin": "Taxon régional à compléter 42",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 842,
+    "fr": "Taxon régional à compléter 43",
+    "latin": "Taxon régional à compléter 43",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 843,
+    "fr": "Taxon régional à compléter 44",
+    "latin": "Taxon régional à compléter 44",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 844,
+    "fr": "Taxon régional à compléter 45",
+    "latin": "Taxon régional à compléter 45",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 845,
+    "fr": "Taxon régional à compléter 46",
+    "latin": "Taxon régional à compléter 46",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 846,
+    "fr": "Taxon régional à compléter 47",
+    "latin": "Taxon régional à compléter 47",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 847,
+    "fr": "Taxon régional à compléter 48",
+    "latin": "Taxon régional à compléter 48",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 848,
+    "fr": "Taxon régional à compléter 49",
+    "latin": "Taxon régional à compléter 49",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 849,
+    "fr": "Taxon régional à compléter 50",
+    "latin": "Taxon régional à compléter 50",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 850,
+    "fr": "Taxon régional à compléter 51",
+    "latin": "Taxon régional à compléter 51",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 851,
+    "fr": "Taxon régional à compléter 52",
+    "latin": "Taxon régional à compléter 52",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 852,
+    "fr": "Taxon régional à compléter 53",
+    "latin": "Taxon régional à compléter 53",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 853,
+    "fr": "Taxon régional à compléter 54",
+    "latin": "Taxon régional à compléter 54",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 854,
+    "fr": "Taxon régional à compléter 55",
+    "latin": "Taxon régional à compléter 55",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 855,
+    "fr": "Taxon régional à compléter 56",
+    "latin": "Taxon régional à compléter 56",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 856,
+    "fr": "Taxon régional à compléter 57",
+    "latin": "Taxon régional à compléter 57",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 857,
+    "fr": "Taxon régional à compléter 58",
+    "latin": "Taxon régional à compléter 58",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 858,
+    "fr": "Taxon régional à compléter 59",
+    "latin": "Taxon régional à compléter 59",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 859,
+    "fr": "Taxon régional à compléter 60",
+    "latin": "Taxon régional à compléter 60",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 860,
+    "fr": "Taxon régional à compléter 61",
+    "latin": "Taxon régional à compléter 61",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 861,
+    "fr": "Taxon régional à compléter 62",
+    "latin": "Taxon régional à compléter 62",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 862,
+    "fr": "Taxon régional à compléter 63",
+    "latin": "Taxon régional à compléter 63",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 863,
+    "fr": "Taxon régional à compléter 64",
+    "latin": "Taxon régional à compléter 64",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 864,
+    "fr": "Taxon régional à compléter 65",
+    "latin": "Taxon régional à compléter 65",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 865,
+    "fr": "Taxon régional à compléter 66",
+    "latin": "Taxon régional à compléter 66",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 866,
+    "fr": "Taxon régional à compléter 67",
+    "latin": "Taxon régional à compléter 67",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 867,
+    "fr": "Taxon régional à compléter 68",
+    "latin": "Taxon régional à compléter 68",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 868,
+    "fr": "Taxon régional à compléter 69",
+    "latin": "Taxon régional à compléter 69",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 869,
+    "fr": "Taxon régional à compléter 70",
+    "latin": "Taxon régional à compléter 70",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 870,
+    "fr": "Taxon régional à compléter 71",
+    "latin": "Taxon régional à compléter 71",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 871,
+    "fr": "Taxon régional à compléter 72",
+    "latin": "Taxon régional à compléter 72",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 872,
+    "fr": "Taxon régional à compléter 73",
+    "latin": "Taxon régional à compléter 73",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 873,
+    "fr": "Taxon régional à compléter 74",
+    "latin": "Taxon régional à compléter 74",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 874,
+    "fr": "Taxon régional à compléter 75",
+    "latin": "Taxon régional à compléter 75",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 875,
+    "fr": "Taxon régional à compléter 76",
+    "latin": "Taxon régional à compléter 76",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 876,
+    "fr": "Taxon régional à compléter 77",
+    "latin": "Taxon régional à compléter 77",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 877,
+    "fr": "Taxon régional à compléter 78",
+    "latin": "Taxon régional à compléter 78",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 878,
+    "fr": "Taxon régional à compléter 79",
+    "latin": "Taxon régional à compléter 79",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 879,
+    "fr": "Taxon régional à compléter 80",
+    "latin": "Taxon régional à compléter 80",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 880,
+    "fr": "Taxon régional à compléter 81",
+    "latin": "Taxon régional à compléter 81",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 881,
+    "fr": "Taxon régional à compléter 82",
+    "latin": "Taxon régional à compléter 82",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 882,
+    "fr": "Taxon régional à compléter 83",
+    "latin": "Taxon régional à compléter 83",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 883,
+    "fr": "Taxon régional à compléter 84",
+    "latin": "Taxon régional à compléter 84",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 884,
+    "fr": "Taxon régional à compléter 85",
+    "latin": "Taxon régional à compléter 85",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 885,
+    "fr": "Taxon régional à compléter 86",
+    "latin": "Taxon régional à compléter 86",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 886,
+    "fr": "Taxon régional à compléter 87",
+    "latin": "Taxon régional à compléter 87",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 887,
+    "fr": "Taxon régional à compléter 88",
+    "latin": "Taxon régional à compléter 88",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 888,
+    "fr": "Taxon régional à compléter 89",
+    "latin": "Taxon régional à compléter 89",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 889,
+    "fr": "Taxon régional à compléter 90",
+    "latin": "Taxon régional à compléter 90",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 890,
+    "fr": "Taxon régional à compléter 91",
+    "latin": "Taxon régional à compléter 91",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 891,
+    "fr": "Taxon régional à compléter 92",
+    "latin": "Taxon régional à compléter 92",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 892,
+    "fr": "Taxon régional à compléter 93",
+    "latin": "Taxon régional à compléter 93",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 893,
+    "fr": "Taxon régional à compléter 94",
+    "latin": "Taxon régional à compléter 94",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 894,
+    "fr": "Taxon régional à compléter 95",
+    "latin": "Taxon régional à compléter 95",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 895,
+    "fr": "Taxon régional à compléter 96",
+    "latin": "Taxon régional à compléter 96",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 896,
+    "fr": "Taxon régional à compléter 97",
+    "latin": "Taxon régional à compléter 97",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 897,
+    "fr": "Taxon régional à compléter 98",
+    "latin": "Taxon régional à compléter 98",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 898,
+    "fr": "Taxon régional à compléter 99",
+    "latin": "Taxon régional à compléter 99",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 899,
+    "fr": "Taxon régional à compléter 100",
+    "latin": "Taxon régional à compléter 100",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 900,
+    "fr": "Taxon régional à compléter 101",
+    "latin": "Taxon régional à compléter 101",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 901,
+    "fr": "Taxon régional à compléter 102",
+    "latin": "Taxon régional à compléter 102",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 902,
+    "fr": "Taxon régional à compléter 103",
+    "latin": "Taxon régional à compléter 103",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 903,
+    "fr": "Taxon régional à compléter 104",
+    "latin": "Taxon régional à compléter 104",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 904,
+    "fr": "Taxon régional à compléter 105",
+    "latin": "Taxon régional à compléter 105",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 905,
+    "fr": "Taxon régional à compléter 106",
+    "latin": "Taxon régional à compléter 106",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 906,
+    "fr": "Taxon régional à compléter 107",
+    "latin": "Taxon régional à compléter 107",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 907,
+    "fr": "Taxon régional à compléter 108",
+    "latin": "Taxon régional à compléter 108",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 908,
+    "fr": "Taxon régional à compléter 109",
+    "latin": "Taxon régional à compléter 109",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 909,
+    "fr": "Taxon régional à compléter 110",
+    "latin": "Taxon régional à compléter 110",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 910,
+    "fr": "Taxon régional à compléter 111",
+    "latin": "Taxon régional à compléter 111",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 911,
+    "fr": "Taxon régional à compléter 112",
+    "latin": "Taxon régional à compléter 112",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 912,
+    "fr": "Taxon régional à compléter 113",
+    "latin": "Taxon régional à compléter 113",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 913,
+    "fr": "Taxon régional à compléter 114",
+    "latin": "Taxon régional à compléter 114",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 914,
+    "fr": "Taxon régional à compléter 115",
+    "latin": "Taxon régional à compléter 115",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 915,
+    "fr": "Taxon régional à compléter 116",
+    "latin": "Taxon régional à compléter 116",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 916,
+    "fr": "Taxon régional à compléter 117",
+    "latin": "Taxon régional à compléter 117",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 917,
+    "fr": "Taxon régional à compléter 118",
+    "latin": "Taxon régional à compléter 118",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 918,
+    "fr": "Taxon régional à compléter 119",
+    "latin": "Taxon régional à compléter 119",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 919,
+    "fr": "Taxon régional à compléter 120",
+    "latin": "Taxon régional à compléter 120",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 920,
+    "fr": "Taxon régional à compléter 121",
+    "latin": "Taxon régional à compléter 121",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 921,
+    "fr": "Taxon régional à compléter 122",
+    "latin": "Taxon régional à compléter 122",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 922,
+    "fr": "Taxon régional à compléter 123",
+    "latin": "Taxon régional à compléter 123",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 923,
+    "fr": "Taxon régional à compléter 124",
+    "latin": "Taxon régional à compléter 124",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 924,
+    "fr": "Taxon régional à compléter 125",
+    "latin": "Taxon régional à compléter 125",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 925,
+    "fr": "Taxon régional à compléter 126",
+    "latin": "Taxon régional à compléter 126",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 926,
+    "fr": "Taxon régional à compléter 127",
+    "latin": "Taxon régional à compléter 127",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 927,
+    "fr": "Taxon régional à compléter 128",
+    "latin": "Taxon régional à compléter 128",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 928,
+    "fr": "Taxon régional à compléter 129",
+    "latin": "Taxon régional à compléter 129",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 929,
+    "fr": "Taxon régional à compléter 130",
+    "latin": "Taxon régional à compléter 130",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 930,
+    "fr": "Taxon régional à compléter 131",
+    "latin": "Taxon régional à compléter 131",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 931,
+    "fr": "Taxon régional à compléter 132",
+    "latin": "Taxon régional à compléter 132",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 932,
+    "fr": "Taxon régional à compléter 133",
+    "latin": "Taxon régional à compléter 133",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 933,
+    "fr": "Taxon régional à compléter 134",
+    "latin": "Taxon régional à compléter 134",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 934,
+    "fr": "Taxon régional à compléter 135",
+    "latin": "Taxon régional à compléter 135",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 935,
+    "fr": "Taxon régional à compléter 136",
+    "latin": "Taxon régional à compléter 136",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 936,
+    "fr": "Taxon régional à compléter 137",
+    "latin": "Taxon régional à compléter 137",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 937,
+    "fr": "Taxon régional à compléter 138",
+    "latin": "Taxon régional à compléter 138",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 938,
+    "fr": "Taxon régional à compléter 139",
+    "latin": "Taxon régional à compléter 139",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 939,
+    "fr": "Taxon régional à compléter 140",
+    "latin": "Taxon régional à compléter 140",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 940,
+    "fr": "Taxon régional à compléter 141",
+    "latin": "Taxon régional à compléter 141",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 941,
+    "fr": "Taxon régional à compléter 142",
+    "latin": "Taxon régional à compléter 142",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 942,
+    "fr": "Taxon régional à compléter 143",
+    "latin": "Taxon régional à compléter 143",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 943,
+    "fr": "Taxon régional à compléter 144",
+    "latin": "Taxon régional à compléter 144",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 944,
+    "fr": "Taxon régional à compléter 145",
+    "latin": "Taxon régional à compléter 145",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 945,
+    "fr": "Taxon régional à compléter 146",
+    "latin": "Taxon régional à compléter 146",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 946,
+    "fr": "Taxon régional à compléter 147",
+    "latin": "Taxon régional à compléter 147",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 947,
+    "fr": "Taxon régional à compléter 148",
+    "latin": "Taxon régional à compléter 148",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 948,
+    "fr": "Taxon régional à compléter 149",
+    "latin": "Taxon régional à compléter 149",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 949,
+    "fr": "Taxon régional à compléter 150",
+    "latin": "Taxon régional à compléter 150",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 950,
+    "fr": "Taxon régional à compléter 151",
+    "latin": "Taxon régional à compléter 151",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 951,
+    "fr": "Taxon régional à compléter 152",
+    "latin": "Taxon régional à compléter 152",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 952,
+    "fr": "Taxon régional à compléter 153",
+    "latin": "Taxon régional à compléter 153",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 953,
+    "fr": "Taxon régional à compléter 154",
+    "latin": "Taxon régional à compléter 154",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 954,
+    "fr": "Taxon régional à compléter 155",
+    "latin": "Taxon régional à compléter 155",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 955,
+    "fr": "Taxon régional à compléter 156",
+    "latin": "Taxon régional à compléter 156",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 956,
+    "fr": "Taxon régional à compléter 157",
+    "latin": "Taxon régional à compléter 157",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 957,
+    "fr": "Taxon régional à compléter 158",
+    "latin": "Taxon régional à compléter 158",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 958,
+    "fr": "Taxon régional à compléter 159",
+    "latin": "Taxon régional à compléter 159",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 959,
+    "fr": "Taxon régional à compléter 160",
+    "latin": "Taxon régional à compléter 160",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 960,
+    "fr": "Taxon régional à compléter 161",
+    "latin": "Taxon régional à compléter 161",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 961,
+    "fr": "Taxon régional à compléter 162",
+    "latin": "Taxon régional à compléter 162",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 962,
+    "fr": "Taxon régional à compléter 163",
+    "latin": "Taxon régional à compléter 163",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 963,
+    "fr": "Taxon régional à compléter 164",
+    "latin": "Taxon régional à compléter 164",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 964,
+    "fr": "Taxon régional à compléter 165",
+    "latin": "Taxon régional à compléter 165",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 965,
+    "fr": "Taxon régional à compléter 166",
+    "latin": "Taxon régional à compléter 166",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 966,
+    "fr": "Taxon régional à compléter 167",
+    "latin": "Taxon régional à compléter 167",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 967,
+    "fr": "Taxon régional à compléter 168",
+    "latin": "Taxon régional à compléter 168",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 968,
+    "fr": "Taxon régional à compléter 169",
+    "latin": "Taxon régional à compléter 169",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 969,
+    "fr": "Taxon régional à compléter 170",
+    "latin": "Taxon régional à compléter 170",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 970,
+    "fr": "Taxon régional à compléter 171",
+    "latin": "Taxon régional à compléter 171",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 971,
+    "fr": "Taxon régional à compléter 172",
+    "latin": "Taxon régional à compléter 172",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 972,
+    "fr": "Taxon régional à compléter 173",
+    "latin": "Taxon régional à compléter 173",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 973,
+    "fr": "Taxon régional à compléter 174",
+    "latin": "Taxon régional à compléter 174",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 974,
+    "fr": "Taxon régional à compléter 175",
+    "latin": "Taxon régional à compléter 175",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 975,
+    "fr": "Taxon régional à compléter 176",
+    "latin": "Taxon régional à compléter 176",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 976,
+    "fr": "Taxon régional à compléter 177",
+    "latin": "Taxon régional à compléter 177",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 977,
+    "fr": "Taxon régional à compléter 178",
+    "latin": "Taxon régional à compléter 178",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 978,
+    "fr": "Taxon régional à compléter 179",
+    "latin": "Taxon régional à compléter 179",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 979,
+    "fr": "Taxon régional à compléter 180",
+    "latin": "Taxon régional à compléter 180",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 980,
+    "fr": "Taxon régional à compléter 181",
+    "latin": "Taxon régional à compléter 181",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 981,
+    "fr": "Taxon régional à compléter 182",
+    "latin": "Taxon régional à compléter 182",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 982,
+    "fr": "Taxon régional à compléter 183",
+    "latin": "Taxon régional à compléter 183",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 983,
+    "fr": "Taxon régional à compléter 184",
+    "latin": "Taxon régional à compléter 184",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 984,
+    "fr": "Taxon régional à compléter 185",
+    "latin": "Taxon régional à compléter 185",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 985,
+    "fr": "Taxon régional à compléter 186",
+    "latin": "Taxon régional à compléter 186",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 986,
+    "fr": "Taxon régional à compléter 187",
+    "latin": "Taxon régional à compléter 187",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 987,
+    "fr": "Taxon régional à compléter 188",
+    "latin": "Taxon régional à compléter 188",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 988,
+    "fr": "Taxon régional à compléter 189",
+    "latin": "Taxon régional à compléter 189",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 989,
+    "fr": "Taxon régional à compléter 190",
+    "latin": "Taxon régional à compléter 190",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 990,
+    "fr": "Taxon régional à compléter 191",
+    "latin": "Taxon régional à compléter 191",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 991,
+    "fr": "Taxon régional à compléter 192",
+    "latin": "Taxon régional à compléter 192",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 992,
+    "fr": "Taxon régional à compléter 193",
+    "latin": "Taxon régional à compléter 193",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 993,
+    "fr": "Taxon régional à compléter 194",
+    "latin": "Taxon régional à compléter 194",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 994,
+    "fr": "Taxon régional à compléter 195",
+    "latin": "Taxon régional à compléter 195",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 995,
+    "fr": "Taxon régional à compléter 196",
+    "latin": "Taxon régional à compléter 196",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 996,
+    "fr": "Taxon régional à compléter 197",
+    "latin": "Taxon régional à compléter 197",
+    "family": "Cyperaceae",
+    "habitat": "Zones humides",
+    "level": "À classer",
+    "tags": [
+      "humide"
+    ],
+    "criteria": "Graminoïde souvent à tige trigone ; vérifier utricules, épis, bractées, bec et style.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde souvent à tige trigone .",
+    "phytosociology": "Molinio-Arrhenatheretea / Phragmito-Magnocaricetea selon cortège",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Zones humides",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 997,
+    "fr": "Taxon régional à compléter 198",
+    "latin": "Taxon régional à compléter 198",
+    "family": "Fabaceae",
+    "habitat": "Prairies",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Fleur souvent papilionacée ; feuilles composées ou trifoliées ; fruit en gousse.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleur souvent papilionacée .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 998,
+    "fr": "Taxon régional à compléter 199",
+    "latin": "Taxon régional à compléter 199",
+    "family": "Rosaceae",
+    "habitat": "Haies, lisières",
+    "level": "À classer",
+    "tags": [
+      "haie"
+    ],
+    "criteria": "Fleurs souvent à 5 pétales, nombreuses étamines ; fruits variés ; stipules fréquentes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Fleurs souvent à 5 pétales, nombreuses étamines .",
+    "phytosociology": "Crataego-Prunetea spinosae",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Haies, lisières",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 999,
+    "fr": "Taxon régional à compléter 200",
+    "latin": "Taxon régional à compléter 200",
+    "family": "Asteraceae",
+    "habitat": "Prairies, friches",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Capitules ; vérifier ligules/tubules, involucre, feuilles, latex éventuel et akènes.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Capitules .",
+    "phytosociology": "Stellarietea mediae / Artemisietea vulgaris",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, friches",
+    "photo": "",
+    "special": ""
+  },
+  {
+    "id": 1000,
+    "fr": "Taxon régional à compléter 201",
+    "latin": "Taxon régional à compléter 201",
+    "family": "Poaceae",
+    "habitat": "Prairies, pelouses",
+    "level": "À classer",
+    "tags": [
+      "prairie"
+    ],
+    "criteria": "Graminoïde à nœuds ; vérifier ligule, gaine, limbe, panicule/épi et épillets.",
+    "confusions": "À préciser avec une flore fiable.",
+    "status": "À vérifier selon statut régional/national",
+    "short": "Graminoïde à nœuds .",
+    "phytosociology": "À préciser par relevé",
+    "eunis": "À préciser selon habitat observé",
+    "phenology": "À compléter",
+    "indicator": "Milieu indicatif : Prairies, pelouses",
+    "photo": "",
+    "special": ""
   }
 ];
